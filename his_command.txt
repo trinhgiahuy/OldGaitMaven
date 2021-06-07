@@ -1,0 +1,2295 @@
+    1  exit
+    2  rm /home/pi/instemp.log
+    3  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+    4  exot
+    5  exit
+    6  sudo -E bash
+    7  ps aux
+    8  exit
+    9  rm /home/pi/instemp.log
+   10  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+   11  exit
+   12  sudo -E bash
+   13  exit
+   14  rm /home/pi/instemp.log
+   15  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+   16  roscore
+   17  cd ~/data
+   18  rosbag record -a
+   19  sudo -E bash
+   20  rosrun ascii_logger listener.py > /home/pi/ascii.log
+   21  cd
+   22  roslaunch vectornav vn200.launch 
+   23  cat /home/pi/.ros/log/ec8229ba-a2b7-11e7-b34b-b827eb03ca80/roslaunch-raspberrypi-25073.log 
+   24  cat /home/pi/.ros/log/ec8229ba-a2b7-11e7-b34b-b827eb03ca80/rosout
+   25  cat /home/pi/.ros/log/ec8229ba-a2b7-11e7-b34b-b827eb03ca80/rosout.log 
+   26  cat /home/pi/.ros/log/ec8229ba-a2b7-11e7-b34b-b827eb03ca80/rosout-1-stdout.log 
+   27  cat /home/pi/.ros/log/ec8229ba-a2b7-11e7-b34b-b827eb03ca80/master.log 
+   28  ps aux
+   29  exit
+   30  roslaunch vectornav vn200.launch 
+   31  roscore 
+   32  exit
+   33  roslaunch vectornav vn200.launch 
+   34  sudo apt-get update && sudo apt-get dist-upgrade 
+   35  nano src/vectornav/src/vn200_node.cpp 
+   36  screen -S ins
+   37  ps aux
+   38  screen -r 
+   39  exit
+   40  rosrun vectornav vn200_node 
+   41  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0
+   42  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800
+   43  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2
+   44  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=2
+   45  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=1
+   46  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _async_output_rate:=100
+   47  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=400
+   48  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   49  nano src/vectornav/src/vn200_node.cpp 
+   50  catkin_make
+   51  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   52  catkin_make --help
+   53  catkin_make --pkg vectornav_* -DCMAKE_BUILD_TYPE=Debug
+   54  catkin_make --pkg vectornav* -DCMAKE_BUILD_TYPE=Debug
+   55  catkin_make --pkg vectornav -DCMAKE_BUILD_TYPE=Debug
+   56  gdb rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   57  nano src/vectornav/launch/vn200.launch 
+   58  roslaunch vectornav vn200.launch 
+   59  nano src/vectornav/launch/vn200.launch 
+   60  roslaunch vectornav vn200.launch 
+   61  ps aux
+   62  nano src/vectornav/launch/vn200.launch 
+   63  roslaunch vectornav vn200.launch 
+   64  ps aux
+   65  catkin_make --pkg vectornav -DCMAKE_BUILD_TYPE=Release
+   66  cd
+   67  ps aux
+   68  screen -r 
+   69  ps aux
+   70  screen -r
+   71  exit
+   72  tail -f measurement.log 
+   73  sudo rm /online 
+   74  tail -f measurement.log 
+   75  sudo -E bash
+   76  screen -r gps 
+   77  rostopic echo /vectornav/imugps 
+   78  cd data/
+   79  ls -al
+   80  rostopic hlep
+   81  rostopic list
+   82  rostopic hz
+   83  rostopic hz /vectornav/imugps 
+   84  rostopic info /vectornav/imugps 
+   85  ls al
+   86  ls -al
+   87  screen -r log 
+   88  screen -r bag 
+   89  screen -r gps 
+   90  ps aux
+   91  screen -r
+   92  cd
+   93  ls -al
+   94  cd openkin/
+   95  nano measurement.sh 
+   96  ps aux
+   97  sudo killall bash
+   98  ps aux
+   99  sudo killall python 
+  100  p saux
+  101  ps aux
+  102  sudo kill 683
+  103  ps aux
+  104  sudo killall tee
+  105  ps aux
+  106  screen -S meas
+  107  ps aux
+  108  cat 1 > online
+  109  echo 1 > online
+  110  screen -r meas 
+  111  screen -r 
+  112  screen -r ins 
+  113  rostopic list
+  114  rostopic info /vectornav/imugps 
+  115  rostopic hx
+  116  rostopic hz /vectornav/imugps 
+  117  cd
+  118  cd data/
+  119  ls -al
+  120  rostopic echo /vectornav/imugps 
+  121  ls -al
+  122  screen -r log 
+  123  cd
+  124  cd openkin/
+  125  ls -al
+  126  screen -r meas 
+  127  ps ua
+  128  ps aux
+  129  sudo killall python 
+  130  screen -r
+  131  ps aux
+  132  ls -al
+  133  ./start_script.sh 
+  134  ps aux
+  135  tail -f ../measurement.log 
+  136  echo 1 > online
+  137  tail -f ../measurement.log 
+  138  screen -r ins 
+  139  tail -f ../measurement.log 
+  140  rostopic list
+  141  tail -f ../measurement.log 
+  142  screen -r ins 
+  143  ps aux
+  144  tail -f ../measurement.log 
+  145  screen -r ins 
+  146  tail -f ../measurement.log 
+  147  ps aux
+  148  sudo killall bash
+  149  ps aux
+  150  sudo kill 21754
+  151  ps aux
+  152  sudo killall python 
+  153  ps aux
+  154  sudo killall screen
+  155  ps aux
+  156  sudo killall tee
+  157  ps aux
+  158  ls -al
+  159  screen -S in
+  160  rostopic list
+  161  rostopic echo /vectornav/imugps 
+  162  rostopic list
+  163  screen -r
+  164  ps aux
+  165  c
+  166  cd ..
+  167  cd catkin_ws/
+  168  ls -al
+  169  catkin_make
+  170  screen -S ins
+  171  rostopic list
+  172  screen -S ins
+  173  screen -r
+  174  rostopic info /vectornav/imugps 
+  175  screen -r
+  176  screen -S ins2
+  177  ps aux
+  178  exit
+  179  rostopic echo /vectornav/imugps
+  180  rostopic echo /vectornav/imugps 
+  181  ps aux
+  182  rm openkin/online 
+  183  ls -l
+  184  ls -al
+  185  cd data/
+  186  l s-al
+  187  ls -al
+  188  rm 2017-*
+  189  ls -al
+  190  grive
+  191  ls -al
+  192  cd .trash/
+  193  ls -al
+  194  cd ..
+  195  ls -al
+  196  cd
+  197  c dop
+  198  cd openkin/
+  199  nano measurement.sh 
+  200  ps aux
+  201  sudo reboot
+  202  echo 1 > /online
+  203  exit
+  204  sudo -E bash
+  205  rm /home/pi/instemp.log
+  206  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  207  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  208  cd ~/data
+  209  rosbag record -a
+  210  sudo -E bash
+  211  rm /home/pi/instemp.log
+  212  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  213  roscore
+  214  echo 1 > /online
+  215  exit
+  216  sudo -E bash
+  217  rm /home/pi/instemp.log
+  218  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  219  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  220  cd ~/data
+  221  rosbag record -a
+  222  sudo -E bash
+  223  rm /home/pi/instemp.log
+  224  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  225  roscore
+  226  echo 1 > /online
+  227  exit
+  228  sudo -E bash
+  229  rm /home/pi/instemp.log
+  230  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  231  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  232  cd ~/data
+  233  rosbag record -a
+  234  sudo -E bash
+  235  rm /home/pi/instemp.log
+  236  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  237  roscore
+  238  ps aux
+  239  cd openkin/
+  240  git status
+  241  git diff
+  242  git status
+  243  git add --all
+  244  git status
+  245  git reset HEAD linux-shutdown/pwr-switch
+  246  git status
+  247  git commit -m "Debugging vn200, seems quite stable now"
+  248  git push
+  249  git status
+  250  ps axu
+  251  ps aux
+  252  sudo -E bash
+  253  rm /home/pi/instemp.log
+  254  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  255  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  256  cd ~/data
+  257  rosbag record -a
+  258  sudo -E bash
+  259  rm /home/pi/instemp.log
+  260  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  261  roscore
+  262  tail -f measurement.log 
+  263  ifconfig 
+  264  ping --help
+  265  ping -I eth1 8.8.8.8
+  266  ifconfig 
+  267  ping -I eth1 8.8.8.8
+  268  cd data/
+  269  ls -al
+  270  rm 2017-09-26-13-45-38.bag 
+  271  ls -al
+  272  rm 2017-09-26-13-45-43.txt 
+  273  ls -al
+  274  frive
+  275  grive 
+  276  tail -f measurement.log 
+  277  sudo -E bash
+  278  rm /home/pi/instemp.log
+  279  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  280  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  281  cd ~/data
+  282  rosbag record -a
+  283  sudo -E bash
+  284  rm /home/pi/instemp.log
+  285  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  286  roscore
+  287  sudo -E bash
+  288  rm /home/pi/instemp.log
+  289  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  290  sudo -E bash
+  291  rm /home/pi/instemp.log
+  292  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  293  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  294  cd ~/data
+  295  rosbag record -a
+  296  sudo -E bash
+  297  rm /home/pi/instemp.log
+  298  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  299  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  300  cd ~/data
+  301  rosbag record -a
+  302  sudo -E bash
+  303  rm /home/pi/instemp.log
+  304  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  305  roscore
+  306  roslaunch vectornav vn200.launc
+  307  roslaunch vectornav vn200.launch 
+  308  ls -al
+  309  nano src/vn200_node.cpp 
+  310  cd ..
+  311  catkin_make
+  312  screen -r
+  313  roslaunch vectornav vn200.launch 
+  314  cd src/vectornav/
+  315  ls -al
+  316  cd launch/
+  317  ls -al
+  318  cp vn200.launch raw.launch
+  319  nano raw.launch 
+  320  roslaunch vectornav raw.launch 
+  321  cd ..
+  322  nano src/vn200_node.cpp 
+  323  cd ..
+  324  catkin_make
+  325  roslaunch vectornav raw.launch 
+  326  nano src/vectornav/src/vn200_node.cpp 
+  327  catkin_make
+  328  roslaunch vectornav raw.launch 
+  329  cd
+  330  cd openkin/
+  331  git status
+  332  git statis
+  333  git status
+  334  git diff
+  335  git status
+  336  git add nodes/
+  337  git status
+  338  git commit --amend 
+  339  git status
+  340  git branch vn200rawtest
+  341  git statu
+  342  git status
+  343  git log
+  344  git status
+  345  git branch --help
+  346  git branch --list
+  347  git checkout vn200rawtest 
+  348  git status
+  349  git push
+  350  git push --set-upstream origin vn200rawtest
+  351  git checkout nv200
+  352  git status
+  353  git log
+  354  git reset --hard 8d866f22
+  355  git status
+  356  git push -f
+  357  git status
+  358  cd
+  359  cd catkin_ws/
+  360  catkin_make
+  361  screen -r
+  362  roslaunch vectornav vn200.launch 
+  363  exit
+  364  ps aux
+  365  sudo killall bash
+  366  ps aux
+  367  sudo kill 679
+  368  ps axu
+  369  sudo kilall python
+  370  sudo killall python
+  371  ps aux
+  372  sudo killall tee
+  373  ps aux
+  374  cd openkin/
+  375  git status
+  376  git pull
+  377  git status
+  378  ls -al
+  379  ps aux
+  380  ls -al
+  381  sudo ./start_script.sh 
+  382  ps aux
+  383  ls -al
+  384  cd ..
+  385  tail -f measurement.log 
+  386  cd data/
+  387  ls -al
+  388  du -sh .
+  389  du -sh *
+  390  ls -al
+  391  cd ..
+  392  ls -al
+  393  cd catkin_ws/
+  394  ls -al
+  395  ps aux
+  396  sudo killall bash
+  397  ps aux
+  398  sudo killall python
+  399  ps aux
+  400  sudo kill 1028
+  401  ps aux
+  402  sudo killall tee
+  403  ps aux
+  404  ls al
+  405  ls -al
+  406  cd st
+  407  catkin_make
+  408  cd src/no
+  409  cd src/vectornav
+  410  ls -al
+  411  roslaunch vectornav vn200.launch 
+  412  screen
+  413  rostopic list
+  414  rostopic echo /vectornav/imugps 
+  415  screen -r
+  416  rostopic echo /vectornav/imugps 
+  417  screen -r
+  418  rostopic echo /vectornav/imugps 
+  419  rostopic --help
+  420  rostopic echo -h
+  421  rostopic echo --filter=m%200==0 /vectornav/imugps 
+  422  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  423  git status
+  424  cd
+  425  cd openkin/
+  426  git status
+  427  git add nodes/vectornav/src/vn200_node.cpp 
+  428  git status
+  429  git commit -m "Fixed vn200 gps additions"
+  430  git push
+  431  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  432  cd
+  433  cd catkin_ws/
+  434  cd src/vectornav/
+  435  nano src/vn200_node.cpp 
+  436  git status
+  437  git pull
+  438  git status
+  439  git pull
+  440  cd ..
+  441  catkin_make
+  442  git fetch
+  443  cd src/vectornav
+  444  git fetch
+  445  git status
+  446  git reset origin/vn200 --hard
+  447  git reset origin/nv200 --hard
+  448  git status
+  449  cd ..
+  450  catkin_make
+  451  nano src/vectornav/src/vn200_node.cpp 
+  452  catkin_make
+  453  cd src/vectornav
+  454  ls -al
+  455  nano CMakeLists.txt 
+  456  cd msg/
+  457  ls -al
+  458  cd
+  459  cd catkin_ws/
+  460  catkin_make
+  461  nano src/vectornav/CMakeLists.txt 
+  462  nano src/vectornav/src/vn200_node.cpp 
+  463  catkin_make
+  464  nano src/vectornav/CMakeLists.txt 
+  465  catkin_make
+  466  nano src/vectornav/CMakeLists.txt 
+  467  catkin_make
+  468  nano src/vectornav/msg/rawmeas.msg 
+  469  nano src/vectornav/src/vn200_node.cpp 
+  470  catkin_make
+  471  screen -r
+  472  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  473  screen -r
+  474  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  475  screen -r
+  476  sudo shutdown -h now
+  477  echo 1 > /online
+  478  exit
+  479  sudo -E bash
+  480  rm /home/pi/instemp.log
+  481  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  482  roscore
+  483  sudo -E bash
+  484  cd ~/data
+  485  rosbag record -a
+  486  rm /home/pi/instemp.log
+  487  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  488  ps aux
+  489  sudo kill 677
+  490  ps aux
+  491  sudo killall bash
+  492  ps aux
+  493  sudo killall python
+  494  ps aux
+  495  sudo apt-get update && sudo apt-get dist-upgrade 
+  496  ps aux
+  497  cd openkin/
+  498  ls -al
+  499  git status
+  500  git pull
+  501  git status
+  502  ls -al
+  503  cd linux-shutdown/
+  504  ls -al
+  505  cd ..
+  506  ls -al
+  507  nano led-linuxpwm.sh 
+  508  nano measurement.sh 
+  509  nano led-linuxgpio.sh 
+  510  nano measurement.sh 
+  511  nano led-linuxpwm.sh 
+  512  nano led-linuxgpio.sh 
+  513  nano led-linuxpwm.sh 
+  514  nano led-linuxgpio.sh 
+  515  nano led-linuxpwm.sh 
+  516  nano measurement.sh 
+  517  ls -al
+  518  nano led-linuxgpio.sh 
+  519  cd nodes/vectornav/src/
+  520  ls -al
+  521  nano vn200_node.cpp 
+  522  cd
+  523  cd catkin_ws/
+  524  catkin_make
+  525  nano vn200_node.cpp 
+  526  nano src/vectornav/src/vn200_node.cpp 
+  527  catkin_make
+  528  cd
+  529  cd openkin/
+  530  git status
+  531  git add led-linux*
+  532  git add measurement.sh 
+  533  git add nodes/
+  534  git status
+  535  ls -al
+  536  ./start_script.sh 
+  537  ls -al
+  538  cd
+  539  tail -f measurement.log 
+  540  echo 1 > online
+  541  tail -f measurement.log 
+  542  sudo -E bash
+  543  tail -f measurement.log 
+  544  rm online 
+  545  sudo rm /online 
+  546  cd openkin/
+  547  echo 1 > online
+  548  tail -f ../measurement.log 
+  549  rostopic list
+  550  rostopic echo /vectornav/imugps
+  551  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  552  ps aux
+  553  sudo kill 21381
+  554  ps aux
+  555  sudo killall screen
+  556  ps aux
+  557  sudo killall bash
+  558  ps aux
+  559  ls -al
+  560  cd ..
+  561  cd data/
+  562  ls -al
+  563  tail -n 1000 2017-10-31-12-45-38.txt 
+  564  cd
+  565  cd openkin/
+  566  git status
+  567  git commit -m "Added support for stable red only when GPS fix 3D"
+  568  git push
+  569  sudo shutdown -h now
+  570  sudo -E bash
+  571  rm /home/pi/instemp.log
+  572  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  573  sudo -E bash
+  574  rm /home/pi/instemp.log
+  575  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  576  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  577  cd ~/data
+  578  rosbag record -a
+  579  rm /home/pi/instemp.log
+  580  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  581  sudo -E bash
+  582  roscore
+  583  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  584  cd ~/data
+  585  rosbag record -a
+  586  sudo -E bash
+  587  rm /home/pi/instemp.log
+  588  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  589  tail -f measurement.log 
+  590  cd data/
+  591  ls -al
+  592  ls -alh
+  593  df -h
+  594  ls -al
+  595  cd ..
+  596  tail -f measurement.log 
+  597  ps aux
+  598  tail -f measurement.log 
+  599  ps aux
+  600  sudo shutdown -h now
+  601  echo "ON" > /tmp/ledpipe0
+  602  echo "BLINK" > /tmp/ledpipe0
+  603  echo "FASTER" > /tmp/ledpipe0
+  604  echo "OFF" > /tmp/ledpipe0
+  605  ps aux
+  606  echo 1 > /online
+  607  exit
+  608  sudo -E bash
+  609  rm /home/pi/instemp.log
+  610  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  611  sudo -E bash
+  612  rm /home/pi/instemp.log
+  613  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  614  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  615  cd ~/data
+  616  rosbag record -a
+  617  rm /home/pi/instemp.log
+  618  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  619  sudo -E bash
+  620  roscore
+  621  ps aux
+  622  tail -f measurement.log 
+  623  cd data/
+  624  grive
+  625  cd
+  626  cd openkin/
+  627  nano measurement.sh 
+  628  cd ..
+  629  cd data/
+  630  ls -al
+  631  cd 201
+  632  cd 2016_data/
+  633  l s-al
+  634  ls -al
+  635  cd ..
+  636  ls -al
+  637  grive --help
+  638  grive --dry-run
+  639  grive
+  640  ls -al
+  641  cd .trash/
+  642  ls -al
+  643  df -
+  644  df -h
+  645  ls -al
+  646  rm vn200-testing.*
+  647  rm 2017-09-26-14-39-*
+  648  rm 2017-10-08*
+  649  ls -al
+  650  cd ..
+  651  ls -al
+  652  cd ..
+  653  l s-al
+  654  ls -al
+  655  ps aux
+  656  echo "ON" > /tmp/ledpipe0
+  657  sudo echo "ON" > /tmp/ledpipe0
+  658  sudo -E bash
+  659  ps aux
+  660  tail -f measurement.log 
+  661  ps aux
+  662  sudo rm /online 
+  663  ps aix
+  664  ps aux
+  665  ls -al
+  666  cd openkin/
+  667  ls -al
+  668  nano measurement.sh 
+  669  cd
+  670  cd catkin_ws/
+  671  nano src/vectornav/src/vn200_node.cpp 
+  672  catkin_
+  673  catkin_make
+  674  cd
+  675  cd openkin/
+  676  nano measurement.sh 
+  677  cat /tmp/ledreset0
+  678  echo "" > /tmp/ledreset0
+  679  cat /tmp/ledreset0
+  680  rm /tmp/ledreset0 
+  681  git status
+  682  git add measurement.sh 
+  683  git add nodes/
+  684  rm online 
+  685  git status
+  686  sudo reboot
+  687  cat 1 > /online
+  688  echo 1 > /online
+  689  exit
+  690  sudo -E bash
+  691  rm /home/pi/instemp.log
+  692  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  693  ps aux
+  694  tail -f measurement.log 
+  695  sudo -E bash
+  696  tail -f measurement.log 
+  697  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  698  roscore
+  699  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  700  cd ~/data
+  701  rosbag record -a
+  702  rm /home/pi/instemp.log
+  703  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  704  sudo -E bash
+  705  roscore
+  706  echo 1 > /online
+  707  exit
+  708  sudo -E bash
+  709  rm /home/pi/instemp.log
+  710  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  711  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  712  cd ~/data
+  713  rosbag record -a
+  714  rm /home/pi/instemp.log
+  715  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  716  roscore
+  717  tail -f measurement.log 
+  718  sudo rm /online 
+  719  tail -f measurement.log 
+  720  sudo -E bash
+  721  tail -f measurement.log 
+  722  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  723  cat /tmp/ledreset0 
+  724  rostopic echo --filter=m.header.seq%200==0 /vectornav/imugps 
+  725  ps aux
+  726  sudo rm /online 
+  727  cd data/
+  728  ls -al
+  729  rm 2017*
+  730  ls -al
+  731  cd
+  732  cd openkin/
+  733  cd ..
+  734  tail -f measurement.log 
+  735  cd data/
+  736  ls -al
+  737  cd 2017_
+  738  cd 2017_vectornav/
+  739  ls -al
+  740  cd.
+  741  cd
+  742  sudo shutdown -h now
+  743  sudo -E bash
+  744  rm /home/pi/instemp.log
+  745  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  746  roscore
+  747  rm /home/pi/instemp.log
+  748  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  749  sudo -E bash
+  750  rm /home/pi/instemp.log
+  751  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  752  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  753  cd ~/data
+  754  rosbag record -a
+  755  sudo -E bash
+  756  rm /home/pi/instemp.log
+  757  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  758  rm /home/pi/instemp.log
+  759  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  760  sudo -E bash
+  761  rm /home/pi/instemp.log
+  762  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  763  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  764  cd ~/data
+  765  rosbag record -a
+  766  sudo -E bash
+  767  rm /home/pi/instemp.log
+  768  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  769  roscore
+  770  sudo -E bash
+  771  rm /home/pi/instemp.log
+  772  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  773  sudo -E bash
+  774  rm /home/pi/instemp.log
+  775  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  776  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  777  cd ~/data
+  778  rosbag record -a
+  779  sudo -E bash
+  780  ps aux
+  781  sudo kill 756
+  782  ps aux
+  783  sudo killall bash
+  784  ps aux
+  785  sudo killall python
+  786  ps aux
+  787  ls -al
+  788  cd openkin/
+  789  ls -al
+  790  git status
+  791  git diff
+  792  git diff --cached
+  793  git status
+  794  git checkout --
+  795  git status
+  796  git checkout -- measurement.sh
+  797  git checkout -- nodes/vectornav/src/vn200_node.cpp
+  798  git status
+  799  git reset HEAD measurement.sh
+  800  git reset HEAD nodes/vectornav/
+  801  git status
+  802  git diff
+  803  git stash
+  804  git status
+  805  ls -al
+  806  cd nodes/vectornav/src/
+  807  l s-al
+  808  ls -al
+  809  nano vn200_node.cpp 
+  810  cd
+  811  cd catkin_ws/
+  812  catkin_make
+  813  cd
+  814  cd openkin/
+  815  git status
+  816  git add nodes/vectornav/src/vn200_node.cpp 
+  817  git status
+  818  git log
+  819  git pull
+  820  git commit -m "Hopefully fixed stable red on GPS fix"
+  821  git pull
+  822  git push
+  823  sudo shutdown -h now
+  824  sudo -E bash
+  825  rm /home/pi/instemp.log
+  826  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  827  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  828  cd ~/data
+  829  rosbag record -a
+  830  sudo -E bash
+  831  rm /home/pi/instemp.log
+  832  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  833  roscore
+  834  cd
+  835  touch online
+  836  echo "1" > online
+  837  ls -al
+  838  tail -f measurement.log 
+  839  echo "0" > online
+  840  tail -f measurement.log 
+  841  echo "0" > /online
+  842  echo "1" > /online
+  843  tail -f measurement.log 
+  844  cd openkin/
+  845  echo "1" > online
+  846  tail -f ../measurement.log 
+  847  ps aux
+  848  rostopic list
+  849  rostopic echo /vectornav/imugps
+  850  tail -f /tmp/ledpipe0
+  851  ps au
+  852  nano led-linuxgpio.sh 
+  853  ps aux
+  854  sudo kill 17181
+  855  sudo ./led-linuxgpio.sh 0 24 1
+  856  nano led-linuxgpio.sh 
+  857  sudo ./led-linuxgpio.sh 0 24 1
+  858  ps aux
+  859  rm online 
+  860  rm ../online 
+  861  rm /online 
+  862  ls -al
+  863  ps aux
+  864  nano measurement.sh 
+  865  exit
+  866  sudo -E bash
+  867  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  868  ps aux
+  869  sudo killall bash
+  870  ps aux
+  871  sudo killall python
+  872  ps aux
+  873  sudo kill 820
+  874  ps aux
+  875  sudo killall tee
+  876  ps aux
+  877  cd openkin/
+  878  ls -al
+  879  nano measurement.sh 
+  880  cat ../measurement.log 
+  881  ps aux
+  882  ls -al
+  883  sudo ./start_script.sh 
+  884  ps aux
+  885  sudo -E bash
+  886  ps aux
+  887  tail -f ../measurement.log 
+  888  sudo -E bash
+  889  echo "0" > online
+  890  tail -f ../measurement.log 
+  891  ps aux
+  892  sudo killall bash
+  893  ps aux
+  894  sudo killall python
+  895  ps aux
+  896  sudo killall screen
+  897  ps aux
+  898  sudo kill 15223
+  899  ps aux
+  900  sudo killall tee
+  901  ps aux
+  902  nano nodes/vectornav/src/vn200_node.cpp 
+  903  sudo reboot
+  904  tail -f measurement.log 
+  905  ps aux
+  906  cd ..
+  907  cd
+  908  cd catkin_ws/
+  909  catkin_make
+  910  sudo reboot
+  911  echo "1" > /online
+  912  rostopic echo /vectornav/imugps 
+  913  rm /online 
+  914  exit
+  915  sudo -E bash
+  916  exit
+  917  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  918  cd ~/data
+  919  rosbag record -a
+  920  sudo -E bash
+  921  rm /home/pi/instemp.log
+  922  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  923  roscore
+  924  tail -f measurement.log 
+  925  exit
+  926  roscore
+  927  cd ~/data
+  928  rosbag record -a
+  929  sudo -E bash
+  930  rm /home/pi/instemp.log
+  931  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  932  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  933  ps aux
+  934  ls -al
+  935  cd openkin/
+  936  sudo rm /online
+  937  nano measurement.sh 
+  938  nano nodes/vectornav/src/vn200_node.cpp 
+  939  cd
+  940  cd catkin_ws/
+  941  catkin_make
+  942  nano src/vectornav/src/vn200_node.cpp 
+  943  catkin_make
+  944  sudo reboot
+  945  cd openkin/
+  946  nano led-linuxgpio.sh 
+  947  nano measurement.sh 
+  948  ps aux
+  949  sudo -E bash
+  950  rm /home/pi/instemp.log
+  951  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  952  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  953  cd ~/data
+  954  rosbag record -a
+  955  sudo -E bash
+  956  rm /home/pi/instemp.log
+  957  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  958  roscore
+  959  tail -f measurement.log 
+  960  sudo rm /online 
+  961  tail -f measurement.log 
+  962  exit
+  963  echo "1" > /online
+  964  rostopic echo /vectornav/imugps 
+  965  echo "1" > /online
+  966  rostopic echo /vectornav/imugps 
+  967  exit
+  968  sudo -E bash
+  969  exit
+  970  sudo -E bash
+  971  rm /home/pi/instemp.log
+  972  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  973  exit
+  974  rosrun ascii_logger listener.py > /home/pi/ascii.log
+  975  cd ~/data
+  976  rosbag record -a
+  977  sudo -E bash
+  978  rm /home/pi/instemp.log
+  979  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  980  roscore
+  981  tail -f measurement.log 
+  982  ps aux
+  983  sudo rm /online 
+  984  ps aux
+  985  tail -f measurement.log 
+  986  nano measurement.log 
+  987  cd openkin/
+  988  nano measurement.sh 
+  989  sudo ntpdate time1.mikes.fi
+  990  sudo ntpdate time2.mikes.fi
+  991  sudo ntpdate 0.fi.pool.ntp.org
+  992  date
+  993  ps aux
+  994  date +%Y%m%d -s "20120418"
+  995  sudo date +%Y%m%d -s "20120418"
+  996  sudo ntpdate 0.fi.pool.ntp.org
+  997  nano measurement.sh 
+  998  tail -f ../measurement.log 
+  999  ls -al
+ 1000  git status
+ 1001  git add led-linuxgpio.sh 
+ 1002  git diff --cached
+ 1003  git reset HEAD led-linuxgpio.sh
+ 1004  git status
+ 1005  git add measurement.sh 
+ 1006  git add nodes/vectornav/
+ 1007  git status
+ 1008  git diff --cached
+ 1009  git commit --amend
+ 1010  git push
+ 1011  git push -f
+ 1012  git status
+ 1013  git checkout -- led-linuxgpio.sh
+ 1014  git status
+ 1015  rm online 
+ 1016  git staus
+ 1017  sudo shutdown -h now
+ 1018  sudo -E bash
+ 1019  rm /home/pi/instemp.log
+ 1020  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1021  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1022  cd ~/data
+ 1023  rosbag record -a
+ 1024  sudo -E bash
+ 1025  roscore
+ 1026  sudo -E bash
+ 1027  rm /home/pi/instemp.log
+ 1028  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1029  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1030  cd ~/data
+ 1031  rosbag record -a
+ 1032  sudo -E bash
+ 1033  rm /home/pi/instemp.log
+ 1034  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1035  sudo -E bash
+ 1036  rm /home/pi/instemp.log
+ 1037  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1038  sudo -E bash
+ 1039  rm /home/pi/instemp.log
+ 1040  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1041  roscore
+ 1042  sudo -E bash
+ 1043  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1044  exit
+ 1045  roslaunch vectornav vn200.launch 
+ 1046  screen
+ 1047  ps aux
+ 1048  rostopic list
+ 1049  rostopic echo /vectornav/imugps 
+ 1050  ls
+ 1051  exit
+ 1052  ps aux
+ 1053  sudo kill 642
+ 1054  ps aux
+ 1055  sudo kill 686
+ 1056  ps aux
+ 1057  sudo killall bash
+ 1058  ps aux
+ 1059  ls -al
+ 1060  cd openkin/
+ 1061  ls -al
+ 1062  cd nodes/
+ 1063  ls -al
+ 1064  cd vectornav/
+ 1065  ls -al
+ 1066  cd src/
+ 1067  ls -al
+ 1068  nano vn200_node.cpp 
+ 1069  cd
+ 1070  cd catkin_ws/
+ 1071  catkin_make
+ 1072  ls -al
+ 1073  cd 
+ 1074  cd openkin/
+ 1075  ls -al
+ 1076  nano measurement.sh 
+ 1077  sudo roslaunch vectornav vn200.launch 
+ 1078  sudo -E bash
+ 1079  git status
+ 1080  git log
+ 1081  ls -al
+ 1082  git branch -l
+ 1083  exit
+ 1084  sudo dmesg
+ 1085  sudo shutdown -h now
+ 1086  sudo dmesg 
+ 1087  ls -al
+ 1088  cd data/
+ 1089  ls -al
+ 1090  rm 2018-06-25-08-09-32.bag 
+ 1091  ls -al
+ 1092  cd
+ 1093  tail -f measurement.log 
+ 1094  cd data/
+ 1095  ls
+ 1096  grive 
+ 1097  cd .trash/
+ 1098  ls -al
+ 1099  rm ./*
+ 1100  ls -al
+ 1101  cd ..
+ 1102  ls -al
+ 1103  cd ..
+ 1104  ls -al
+ 1105  cd openkin/
+ 1106  ls -al
+ 1107  git status
+ 1108  git pull
+ 1109  nano measurement.sh 
+ 1110  git checkout ttyvn200
+ 1111  git pull
+ 1112  ls -al
+ 1113  nano measurement.sh 
+ 1114  cd
+ 1115  cd catkin_ws/
+ 1116  catkin_make
+ 1117  cd ..
+ 1118  ls -al
+ 1119  cd openkin/
+ 1120  ls
+ 1121  sudo reboot
+ 1122  sudo -E bash
+ 1123  rm /home/pi/instemp.log
+ 1124  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1125  sudo -E bash
+ 1126  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=/dev/serial/by-id/usb-Xsens_Xsens_USB-serial_converter_XSUO65V1-if00-port0
+ 1127  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1128  cd ~/data
+ 1129  rosbag record -a
+ 1130  sudo -E bash
+ 1131  sudo -E bash
+ 1132  rm /home/pi/instemp.log
+ 1133  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1134  tail -n 1000 measurement.log 
+ 1135  ls -al
+ 1136  sudo dmesg
+ 1137  ls -al
+ 1138  ls
+ 1139  sudo bash
+ 1140  sudo nano /online
+ 1141  tail -f measurement.log 
+ 1142  rostopic list
+ 1143  rostopic echo /imu/data
+ 1144  rostopic list
+ 1145  rostopic echo /vectornav/imugps 
+ 1146  tail -f measurement.log 
+ 1147  sudo rm /online
+ 1148  tail -f measurement.log 
+ 1149  sudo shutdown -h noe
+ 1150  sudo shutdown -h now
+ 1151  sudo -E bash
+ 1152  rm /home/pi/instemp.log
+ 1153  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1154  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=/dev/serial/by-id/usb-Xsens_Xsens_USB-serial_converter_XSUO65V1-if00-port0
+ 1155  sudo -E bash
+ 1156  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1157  cd ~/data
+ 1158  rosbag record -a
+ 1159  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=/dev/serial/by-id/usb-Xsens_Xsens_USB-serial_converter_XSUO65V1-if00-port0
+ 1160  sudo -E bash
+ 1161  rm /home/pi/instemp.log
+ 1162  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1163  sudo -E bash
+ 1164  rm /home/pi/instemp.log
+ 1165  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1166  cd ~/data
+ 1167  rosbag record -a
+ 1168  sudo -E bash
+ 1169  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=/dev/serial/by-id/usb-Xsens_Xsens_USB-serial_converter_XSUO65V1-if00-port0
+ 1170  sudo -E bash
+ 1171  rm /home/pi/instemp.log
+ 1172  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1173  tail -f measurement.log 
+ 1174  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1175  cd ~/data
+ 1176  rosbag record -a
+ 1177  sudo -E bash
+ 1178  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=/dev/serial/by-id/usb-Xsens_Xsens_USB-serial_converter_XSUO65V1-if00-port0
+ 1179  rm /home/pi/instemp.log
+ 1180  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1181  sudo -E bash
+ 1182  ps aux
+ 1183  tail -f measurement.log 
+ 1184  sudo shutdown -h now
+ 1185  tail measurement.log 
+ 1186  exit
+ 1187  sudo -E bash
+ 1188  rm /home/pi/instemp.log
+ 1189  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1190  sudo -E bash
+ 1191  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=
+ 1192  sudo -E bash
+ 1193  cd ~/data
+ 1194  rosbag record -a
+ 1195  nice -n -10 rosrun xsens_driver mtnode_new.py _device:=
+ 1196  sudo -E bash
+ 1197  rm /home/pi/instemp.log
+ 1198  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1199  tail -f measurement.log 
+ 1200  cd openkin/
+ 1201  ls
+ 1202  nano measurement.sh 
+ 1203  sudo reboot
+ 1204  tail measurement.log 
+ 1205  date
+ 1206  exit
+ 1207  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1208  cd ~/data
+ 1209  rosbag record -a
+ 1210  rm /home/pi/instemp.log
+ 1211  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1212  sudo -E bash
+ 1213  tail measurement.log 
+ 1214  sudo shutdown -h now
+ 1215  cd ~/data
+ 1216  rosbag record -a
+ 1217  sudo -E bash
+ 1218  rm /home/pi/instemp.log
+ 1219  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1220  ps aux
+ 1221  tail -f measurement.log 
+ 1222  date
+ 1223  cd data/
+ 1224  ls -al
+ 1225  df -h
+ 1226  ls -al
+ 1227  cd .trash/
+ 1228  ls -al
+ 1229  rm .*
+ 1230  ls -al
+ 1231  rm ./*
+ 1232  ls -al
+ 1233  cd ..
+ 1234  ls -al
+ 1235  rm 2018-08-22-06-42-45.bag 
+ 1236  ls -al
+ 1237  du -sh
+ 1238  cd ..
+ 1239  ls -al
+ 1240  nano tags.txt 
+ 1241  ls -al
+ 1242  cd openkin/
+ 1243  ls -al
+ 1244  git status
+ 1245  git diff
+ 1246  git pull
+ 1247  git diff --HEAD~1
+ 1248  git diff HEAD~1
+ 1249  git diff HEAD~2
+ 1250  git diff HEAD~3
+ 1251  git log
+ 1252  ls -al
+ 1253  nano measurement.sh 
+ 1254  ls -al
+ 1255  git status
+ 1256  git diff 
+ 1257  git diff nv200
+ 1258  nano nodes/ascii_logger/src/listener.py 
+ 1259  nano nodes/vectornav/src/vn200_node.cpp 
+ 1260  git status
+ 1261  git diff
+ 1262  git add --all
+ 1263  git status
+ 1264  git reset HEAD linux-shutdown/pwr-switch
+ 1265  git status
+ 1266  git commit -m "Modified after changing case"
+ 1267  git status
+ 1268  git push
+ 1269  git status
+ 1270  git diff nv200 
+ 1271  ps aux
+ 1272  sudo -E bash
+ 1273  rm /home/pi/instemp.log
+ 1274  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1275  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1276  cd ~/data
+ 1277  rosbag record -a
+ 1278  sudo -E bash
+ 1279  psa ux
+ 1280  ps aux
+ 1281  tail -f measurement.log 
+ 1282  sudo nano /online
+ 1283  tail -f measurement.log 
+ 1284  rostopic list
+ 1285  rostopic echo /vectornav/imugps 
+ 1286  sudo rm /online 
+ 1287  tail -f measurement.log 
+ 1288  cd data/
+ 1289  cd
+ 1290  sudo reboot
+ 1291  tail -f measurement.log 
+ 1292  cd data/
+ 1293  cd .trash/
+ 1294  ls -al
+ 1295  rm ./*
+ 1296  ls -al
+ 1297  cd ..
+ 1298  ls -al
+ 1299  cd
+ 1300  cd openkin/
+ 1301  nano measurement.sh 
+ 1302  cd ..
+ 1303  cd data/
+ 1304  ls
+ 1305  ls -al
+ 1306  nano .griveignore 
+ 1307  ls -al
+ 1308  grive --help
+ 1309  sudo -E bash
+ 1310  rm /home/pi/instemp.log
+ 1311  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1312  sudo -E bash
+ 1313  cd ~/data
+ 1314  rosbag record -a
+ 1315  rm /home/pi/instemp.log
+ 1316  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1317  ps aux
+ 1318  tail -f measurement.log 
+ 1319  top
+ 1320  ps aix
+ 1321  ps aux
+ 1322  cd data/
+ 1323  ls -al
+ 1324  sudo grive
+ 1325  grive
+ 1326  ps aux
+ 1327  ls -al
+ 1328  cd da
+ 1329  ls -al
+ 1330  cd ..
+ 1331  ls -al
+ 1332  sudo reboot
+ 1333  ifconfig
+ 1334  tail -f measurement.log 
+ 1335  date
+ 1336  tail -f measurement.log 
+ 1337  sudo ntpdate time2.mikes.fi
+ 1338  tail -f measurement.log 
+ 1339  sudo ntpdate time1.mikes.fi
+ 1340  nano openkin/measurement.sh 
+ 1341  ntpdate -g
+ 1342  ntpdate -h
+ 1343  ntpdate --help
+ 1344  man ntpdate
+ 1345  sudo ntpdate time1.mikes.fi time2.mikes.fi
+ 1346  nano openkin/measurement.sh 
+ 1347  cd openkin/
+ 1348  git status
+ 1349  git add measurement.sh 
+ 1350  git diff --cached
+ 1351  git status
+ 1352  git commit -m "Backup NTP server"
+ 1353  git push
+ 1354  sudo -E bash
+ 1355  rm /home/pi/instemp.log
+ 1356  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1357  sudo -E bash
+ 1358  cd ~/data
+ 1359  rosbag record -a
+ 1360  rm /home/pi/instemp.log
+ 1361  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1362  tail -f measurement.log 
+ 1363  exit
+ 1364  sudo -E bash
+ 1365  rm /home/pi/instemp.log
+ 1366  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1367  cd ~/data
+ 1368  rosbag record -a
+ 1369  sudo -E bash
+ 1370  rm /home/pi/instemp.log
+ 1371  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1372  tail -f measurement.log 
+ 1373  exit
+ 1374  rm /home/pi/instemp.log
+ 1375  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1376  cd ~/data
+ 1377  rosbag record -a
+ 1378  tail -f measurement.log 
+ 1379  cd data/.trash/
+ 1380  ls -al
+ 1381  exit
+ 1382  cd ~/data
+ 1383  rosbag record -a
+ 1384  sudo -E bash
+ 1385  rm /home/pi/instemp.log
+ 1386  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1387  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1388  cd ~/data
+ 1389  rosbag record -a
+ 1390  sudo -E bash
+ 1391  rm /home/pi/instemp.log
+ 1392  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1393  sudo -E bash
+ 1394  rm /home/pi/instemp.log
+ 1395  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1396  cd ~/data
+ 1397  rosbag record -a
+ 1398  rm /home/pi/instemp.log
+ 1399  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1400  sudo -E bash
+ 1401  rm /home/pi/instemp.log
+ 1402  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1403  sudo -E bash
+ 1404  cd ~/data
+ 1405  rosbag record -a
+ 1406  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1407  rm /home/pi/instemp.log
+ 1408  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1409  sudo -E bash
+ 1410  rm /home/pi/instemp.log
+ 1411  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1412  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1413  sudo -E bash
+ 1414  cd ~/data
+ 1415  rosbag record -a
+ 1416  sudo -E bash
+ 1417  rm /home/pi/instemp.log
+ 1418  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1419  sudo -E bash
+ 1420  cd ~/data
+ 1421  rosbag record -a
+ 1422  sudo -E bash
+ 1423  rm /home/pi/instemp.log
+ 1424  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1425  cd ~/data
+ 1426  rosbag record -a
+ 1427  sudo -E bash
+ 1428  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1429  rm /home/pi/instemp.log
+ 1430  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1431  sudo -E bash
+ 1432  rm /home/pi/instemp.log
+ 1433  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1434  sudo -E bash
+ 1435  rm /home/pi/instemp.log
+ 1436  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1437  sudo -E bash
+ 1438  rm /home/pi/instemp.log
+ 1439  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1440  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1441  cd ~/data
+ 1442  rosbag record -a
+ 1443  sudo -E bash
+ 1444  rm /home/pi/instemp.log
+ 1445  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1446  sudo -E bash
+ 1447  rm /home/pi/instemp.log
+ 1448  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1449  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1450  cd ~/data
+ 1451  rosbag record -a
+ 1452  rm /home/pi/instemp.log
+ 1453  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1454  sudo -E bash
+ 1455  rm /home/pi/instemp.log
+ 1456  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1457  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1458  cd ~/data
+ 1459  rosbag record -a
+ 1460  sudo -E bash
+ 1461  rm /home/pi/instemp.log
+ 1462  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1463  av vn200.launch 2> /home/pi/instemp.rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1464  cd ~/data
+ 1465  rosbag record -a
+ 1466  rm /home/pi/instemp.log
+ 1467  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1468  sudo -E bash
+ 1469  rm /home/pi/instemp.log
+ 1470  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1471  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1472  cd ~/data
+ 1473  rosbag record -a
+ 1474  rm /home/pi/instemp.log
+ 1475  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1476  sudo -E bash
+ 1477  rm /home/pi/instemp.log
+ 1478  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1479  rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1480  cd ~/data
+ 1481  rosbag record -a
+ 1482  rm /home/pi/instemp.log
+ 1483  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1484  sudo -E bash
+ 1485  rm /home/pi/instemp.log
+ 1486  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1487  sudo -E bash
+ 1488  rm /home/pi/instemp.log
+ 1489  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1490  sudo -E bash
+ 1491  rm /home/pi/instemp.log
+ 1492  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1493  sudo -E bash
+ 1494  rm /home/pi/instemp.log
+ 1495  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1496  sudo -E bash
+ 1497  rm /home/pi/instemp.log
+ 1498  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1499  sudo -E bash
+ 1500  rm /home/pi/instemp.log
+ 1501  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1502  sudo -E bash
+ 1503  rm /home/pi/instemp.log
+ 1504  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1505  sudo -E bash
+ 1506  rm /home/pi/instemp.log
+ 1507  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1508  sudo -E bash
+ 1509  rm /home/pi/instemp.log
+ 1510  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1511  sudo -E bash
+ 1512  rm /home/pi/instemp.log
+ 1513  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1514  sudo -E bash
+ 1515  rm /home/pi/instemp.log
+ 1516  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1517  sudo -E bash
+ 1518  rm /home/pi/instemp.log
+ 1519  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1520  sudo -E bash
+ 1521  rm /home/pi/instemp.log
+ 1522  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1523  sudo -E bash
+ 1524  rm /home/pi/instemp.log
+ 1525  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1526  sudo -E bash
+ 1527  rm /home/pi/instemp.log
+ 1528  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1529  sudo -E bash
+ 1530  rm /home/pi/instemp.log
+ 1531  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1532  sudo -E bash
+ 1533  rm /home/pi/instemp.log
+ 1534  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1535  sudo -E bash
+ 1536  rm /home/pi/instemp.log
+ 1537  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1538  sudo -E bash
+ 1539  rm /home/pi/instemp.log
+ 1540  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1541  sudo -E bash
+ 1542  rm /home/pi/instemp.log
+ 1543  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1544  sudo -E bash
+ 1545  rm /home/pi/instemp.log
+ 1546  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1547  sudo -E bash
+ 1548  rm /home/pi/instemp.log
+ 1549  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1550  sudo -E bash
+ 1551  rm /home/pi/instemp.log
+ 1552  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1553  sudo -E bash
+ 1554  rm /home/pi/instemp.log
+ 1555  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1556  sudo -E bash
+ 1557  rm /home/pi/instemp.log
+ 1558  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1559  sudo -E bash
+ 1560  rm /home/pi/instemp.log
+ 1561  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1562  sudo -E bash
+ 1563  rm /home/pi/instemp.log
+ 1564  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1565  sudo -E bash
+ 1566  rm /home/pi/instemp.log
+ 1567  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1568  sudo -E bash
+ 1569  rm /home/pi/instemp.log
+ 1570  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1571  sudo -E bash
+ 1572  rm /home/pi/instemp.log
+ 1573  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1574  sudo -E bash
+ 1575  rm /home/pi/instemp.log
+ 1576  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1577  sudo -E bash
+ 1578  rm /home/pi/instemp.log
+ 1579  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1580  sudo -E bash
+ 1581  rm /home/pi/instemp.log
+ 1582  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1583  sudo -E bash
+ 1584  rm /home/pi/instemp.log
+ 1585  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1586  sudo -E bash
+ 1587  rm /home/pi/instemp.log
+ 1588  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1589  sudo -E bash
+ 1590  rm /home/pi/instemp.log
+ 1591  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1592  sudo -E bash
+ 1593  rm /home/pi/instemp.log
+ 1594  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1595  sudo -E bash
+ 1596  rm /home/pi/instemp.log
+ 1597  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1598  sudo -E bash
+ 1599  rm /home/pi/instemp.log
+ 1600  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1601  sudo -E bash
+ 1602  rm /home/pi/instemp.log
+ 1603  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1604  sudo -E bash
+ 1605  rm /home/pi/instemp.log
+ 1606  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1607  sudo -E bash
+ 1608  rm /home/pi/instemp.log
+ 1609  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1610  sudo -E bash
+ 1611  rm /home/pi/instemp.log
+ 1612  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1613  sudo -E bash
+ 1614  rm /home/pi/instemp.log
+ 1615  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1616  sudo -E bash
+ 1617  rm /home/pi/instemp.log
+ 1618  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1619  sudo -E bash
+ 1620  rm /home/pi/instemp.log
+ 1621  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1622  sudo -E bash
+ 1623  rm /home/pi/instemp.log
+ 1624  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1625  sudo -E bash
+ 1626  rm /home/pi/instemp.log
+ 1627  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1628  sudo -E bash
+ 1629  rm /home/pi/instemp.log
+ 1630  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1631  sudo -E bash
+ 1632  rm /home/pi/instemp.log
+ 1633  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1634  sudo -E bash
+ 1635  rm /home/pi/instemp.log
+ 1636  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1637  sudo -E bash
+ 1638  rm /home/pi/instemp.log
+ 1639  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1640  sudo -E bash
+ 1641  rm /home/pi/instemp.log
+ 1642  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1643  sudo -E bash
+ 1644  rm /home/pi/instemp.log
+ 1645  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1646  sudo -E bash
+ 1647  rm /home/pi/instemp.log
+ 1648  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1649  sudo -E bash
+ 1650  rm /home/pi/instemp.log
+ 1651  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1652  sudo -E bash
+ 1653  rm /home/pi/instemp.log
+ 1654  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1655  sudo -E bash
+ 1656  rm /home/pi/instemp.log
+ 1657  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1658  sudo -E bash
+ 1659  rm /home/pi/instemp.log
+ 1660  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1661  sudo -E bash
+ 1662  rm /home/pi/instemp.log
+ 1663  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1664  sudo -E bash
+ 1665  rm /home/pi/instemp.log
+ 1666  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1667  sudo -E bash
+ 1668  rm /home/pi/instemp.log
+ 1669  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1670  sudo -E bash
+ 1671  rm /home/pi/instemp.log
+ 1672  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1673  sudo -E bash
+ 1674  rm /home/pi/instemp.log
+ 1675  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1676  sudo -E bash
+ 1677  rm /home/pi/instemp.log
+ 1678  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1679  sudo -E bash
+ 1680  rm /home/pi/instemp.log
+ 1681  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1682  sudo -E bash
+ 1683  rm /home/pi/instemp.log
+ 1684  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1685  sudo -E bash
+ 1686  rm /home/pi/instemp.log
+ 1687  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1688  sudo -E bash
+ 1689  rm /home/pi/instemp.log
+ 1690  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1691  sudo -E bash
+ 1692  rm /home/pi/instemp.log
+ 1693  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1694  sudo -E bash
+ 1695  rm /home/pi/instemp.log
+ 1696  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1697  sudo -E bash
+ 1698  rm /home/pi/instemp.log
+ 1699  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1700  sudo -E bash
+ 1701  rm /home/pi/instemp.log
+ 1702  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1703  sudo -E bash
+ 1704  rm /home/pi/instemp.log
+ 1705  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1706  sudo -E bash
+ 1707  rm /home/pi/instemp.log
+ 1708  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1709  sudo -E bash
+ 1710  rm /home/pi/instemp.log
+ 1711  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1712  sudo -E bash
+ 1713  rm /home/pi/instemp.log
+ 1714  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1715  sudo -E bash
+ 1716  rm /home/pi/instemp.log
+ 1717  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1718  sudo -E bash
+ 1719  rm /home/pi/instemp.log
+ 1720  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1721  sudo -E bash
+ 1722  rm /home/pi/instemp.log
+ 1723  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1724  sudo -E bash
+ 1725  rm /home/pi/instemp.log
+ 1726  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1727  sudo -E bash
+ 1728  rm /home/pi/instemp.log
+ 1729  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1730  sudo -E bash
+ 1731  rm /home/pi/instemp.log
+ 1732  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1733  sudo -E bash
+ 1734  rm /home/pi/instemp.log
+ 1735  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1736  sudo -E bash
+ 1737  rm /home/pi/instemp.log
+ 1738  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1739  sudo -E bash
+ 1740  rm /home/pi/instemp.log
+ 1741  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1742  sudo -E bash
+ 1743  rm /home/pi/instemp.log
+ 1744  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1745  sudo -E bash
+ 1746  rm /home/pi/instemp.log
+ 1747  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1748  sudo -E bash
+ 1749  rm /home/pi/instemp.log
+ 1750  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1751  sudo -E bash
+ 1752  rm /home/pi/instemp.log
+ 1753  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1754  sudo -E bash
+ 1755  rm /home/pi/instemp.log
+ 1756  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1757  sudo -E bash
+ 1758  rm /home/pi/instemp.log
+ 1759  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1760  sudo -E bash
+ 1761  rm /home/pi/instemp.log
+ 1762  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1763  sudo -E bash
+ 1764  rm /home/pi/instemp.log
+ 1765  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1766  sudo -E bash
+ 1767  rm /home/pi/instemp.log
+ 1768  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1769  sudo -E bash
+ 1770  rm /home/pi/instemp.log
+ 1771  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1772  sudo -E bash
+ 1773  rm /home/pi/instemp.log
+ 1774  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1775  sudo -E bash
+ 1776  rm /home/pi/instemp.log
+ 1777  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1778  sudo -E bash
+ 1779  rm /home/pi/instemp.log
+ 1780  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1781  sudo -E bash
+ 1782  rm /home/pi/instemp.log
+ 1783  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1784  sudo -E bash
+ 1785  rm /home/pi/instemp.log
+ 1786  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1787  sudo -E bash
+ 1788  rm /home/pi/instemp.log
+ 1789  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1790  sudo -E bash
+ 1791  rm /home/pi/instemp.log
+ 1792  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1793  sudo -E bash
+ 1794  rm /home/pi/instemp.log
+ 1795  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1796  sudo -E bash
+ 1797  rm /home/pi/instemp.log
+ 1798  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1799  sudo -E bash
+ 1800  rm /home/pi/instemp.log
+ 1801  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1802  sudo -E bash
+ 1803  rm /home/pi/instemp.log
+ 1804  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1805  sudo -E bash
+ 1806  rm /home/pi/instemp.log
+ 1807  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1808  sudo -E bash
+ 1809  rm /home/pi/instemp.log
+ 1810  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1811  sudo -E bash
+ 1812  rm /home/pi/instemp.log
+ 1813  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1814  sudo -E bash
+ 1815  rm /home/pi/instemp.log
+ 1816  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1817  sudo -E bash
+ 1818  rm /home/pi/instemp.log
+ 1819  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1820  sudo -E bash
+ 1821  rm /home/pi/instemp.log
+ 1822  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1823  sudo -E bash
+ 1824  rm /home/pi/instemp.log
+ 1825  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1826  sudo -E bash
+ 1827  rm /home/pi/instemp.log
+ 1828  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1829  sudo -E bash
+ 1830  rm /home/pi/instemp.log
+ 1831  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1832  sudo -E bash
+ 1833  rm /home/pi/instemp.log
+ 1834  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1835  sudo -E bash
+ 1836  rm /home/pi/instemp.log
+ 1837  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1838  sudo -E bash
+ 1839  rm /home/pi/instemp.log
+ 1840  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1841  sudo -E bash
+ 1842  rm /home/pi/instemp.log
+ 1843  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1844  sudo -E bash
+ 1845  rm /home/pi/instemp.log
+ 1846  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1847  sudo -E bash
+ 1848  rm /home/pi/instemp.log
+ 1849  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1850  sudo -E bash
+ 1851  rm /home/pi/instemp.log
+ 1852  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1853  sudo -E bash
+ 1854  rm /home/pi/instemp.log
+ 1855  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1856  sudo -E bash
+ 1857  rm /home/pi/instemp.log
+ 1858  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1859  sudo -E bash
+ 1860  rm /home/pi/instemp.log
+ 1861  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1862  sudo -E bash
+ 1863  rm /home/pi/instemp.log
+ 1864  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1865  sudo -E bash
+ 1866  rm /home/pi/instemp.log
+ 1867  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1868  sudo -E bash
+ 1869  rm /home/pi/instemp.log
+ 1870  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1871  sudo -E bash
+ 1872  rm /home/pi/instemp.log
+ 1873  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1874  sudo -E bash
+ 1875  rm /home/pi/instemp.log
+ 1876  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1877  sudo -E bash
+ 1878  rm /home/pi/instemp.log
+ 1879  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1880  sudo -E bash
+ 1881  rm /home/pi/instemp.log
+ 1882  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1883  sudo -E bash
+ 1884  rm /home/pi/instemp.log
+ 1885  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1886  sudo -E bash
+ 1887  rm /home/pi/instemp.log
+ 1888  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1889  rm /home/pi/instemp.log
+ 1890  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1891  sudo -E bash
+ 1892  ls
+ 1893  history 
+ 1894  touch his_command.txt
+ 1895  history >> his_command.txt 
+ 1896  nano his_command.txt 
+ 1897  cat .bashrc 
+ 1898  sudo nano .bashrc 
+ 1899  nano /etc/bash.bashrc 
+ 1900  ls
+ 1901  nano instemp.log 
+ 1902  ls
+ 1903  nano measurement.log 
+ 1904  tail measurement.log 
+ 1905  ks
+ 1906  ls
+ 1907  nano rostmp.log 
+ 1908  ls
+ 1909  history | grep rostmp.log
+ 1910  nano gpstemp.log 
+ 1911  ls
+ 1912  nano ascii.log 
+ 1913  ls
+ 1914  nano led.log 
+ 1915  ls
+ 1916  cd catkin_ws/
+ 1917  ls
+ 1918  cd ../ros_catkin_ws/
+ 1919  ls
+ 1920  cd build_isolated/
+ 1921  cd ..
+ 1922  cd catkin_ws/
+ 1923  ls
+ 1924  cd build/
+ 1925  ls
+ 1926  cd ascii_logger/
+ 1927  ls
+ 1928  cd catkin_generated/
+ 1929  ls
+ 1930  cd installspace/
+ 1931  ls
+ 1932  cd ../stamps/
+ 1933  ls
+ 1934  cd ascii_logger/
+ 1935  ls
+ 1936  cd ../../
+ 1937  cd ../CMakeFiles/
+ 1938  ls
+ 1939  cd ../../catkin
+ 1940  ls
+ 1941  cd catkin_generated/
+ 1942  ls
+ 1943  cd version/
+ 1944  ls
+ 1945  cd ../../../
+ 1946  cd vectornav/
+ 1947  ls
+ 1948  cd catkin_generated/ && ls
+ 1949  cd installspace/ && ls
+ 1950  cd ../../cmake/
+ 1951  ls
+ 1952  cd ../CMakeFiles/ && ls
+ 1953  cd ../vnproglib-1.1/ && ls
+ 1954  cd ../CMakeFiles/vn200_node.dir/
+ 1955  ls
+ 1956  cd src/
+ 1957  ls
+ 1958  nano vn200_node.cpp.o 
+ 1959  clear
+ 1960  cd
+ 1961  ls
+ 1962  cd catkin_ws/devel/
+ 1963  ls
+ 1964  cd include/ && ls
+ 1965  cd vectornav/ && ls
+ 1966  cd ../imu_sequenced/ && ls
+ 1967  cd ../gps_common/ && ls
+ 1968  cd ../pozyx/ && ls
+ 1969  cd ../ublox_msgs/ && ls
+ 1970  cd ../..
+ 1971  ls
+ 1972  cd lib/ && lib
+ 1973  cd lib/ && ls
+ 1974  ls
+ 1975  clear
+ 1976  ls
+ 1977  cd gps_common/ && ls
+ 1978  ls ../pozyx/
+ 1979  ls ../ublox_gps/
+ 1980  ls ../vectornav/
+ 1981  cd ..
+ 1982  cd vectornav/
+ 1983  nano vn200_node 
+ 1984  clear
+ 1985  cd ..
+ 1986  ls
+ 1987  ls gps_common/
+ 1988  ls pkgconfig/
+ 1989  ls pozyx/
+ 1990  ls python2.7/
+ 1991  ls ublox_gps/
+ 1992  ls vectornav/
+ 1993  clear
+ 1994  ls ..
+ 1995  cd sha
+ 1996  ls
+ 1997  cd ..
+ 1998  ls
+ 1999  cd share/
+ 2000  reboot 
+ 2001  history > his_command.txt 
+    3  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+   10  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+   15  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+   22  roslaunch vectornav vn200.launch 
+   30  roslaunch vectornav vn200.launch 
+   33  roslaunch vectornav vn200.launch 
+   35  nano src/vectornav/src/vn200_node.cpp 
+   40  rosrun vectornav vn200_node 
+   41  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0
+   42  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800
+   43  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2
+   44  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=2
+   45  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=1
+   46  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _async_output_rate:=100
+   47  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_rate:=400
+   48  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   49  nano src/vectornav/src/vn200_node.cpp 
+   51  rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   56  gdb rosrun vectornav vn200_node _serial_port:=/dev/ttyAMA0 _target_baud:=460800 _binary_data_output_port:=2 _binary_ins_data_output_rate:=400
+   57  nano src/vectornav/launch/vn200.launch 
+   58  roslaunch vectornav vn200.launch 
+   59  nano src/vectornav/launch/vn200.launch 
+   60  roslaunch vectornav vn200.launch 
+   62  nano src/vectornav/launch/vn200.launch 
+   63  roslaunch vectornav vn200.launch 
+  206  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  212  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  218  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  224  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  230  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  236  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  247  git commit -m "Debugging vn200, seems quite stable now"
+  254  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  260  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  279  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  285  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  289  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  292  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  298  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  304  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  306  roslaunch vectornav vn200.launc
+  307  roslaunch vectornav vn200.launch 
+  309  nano src/vn200_node.cpp 
+  313  roslaunch vectornav vn200.launch 
+  318  cp vn200.launch raw.launch
+  322  nano src/vn200_node.cpp 
+  326  nano src/vectornav/src/vn200_node.cpp 
+  340  git branch vn200rawtest
+  347  git checkout vn200rawtest 
+  350  git push --set-upstream origin vn200rawtest
+  362  roslaunch vectornav vn200.launch 
+  411  roslaunch vectornav vn200.launch 
+  427  git add nodes/vectornav/src/vn200_node.cpp 
+  429  git commit -m "Fixed vn200 gps additions"
+  435  nano src/vn200_node.cpp 
+  446  git reset origin/vn200 --hard
+  451  nano src/vectornav/src/vn200_node.cpp 
+  462  nano src/vectornav/src/vn200_node.cpp 
+  469  nano src/vectornav/src/vn200_node.cpp 
+  481  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  487  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  521  nano vn200_node.cpp 
+  525  nano vn200_node.cpp 
+  526  nano src/vectornav/src/vn200_node.cpp 
+  572  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  575  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  580  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  588  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  610  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  613  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  618  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  646  rm vn200-testing.*
+  671  nano src/vectornav/src/vn200_node.cpp 
+  692  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  703  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  710  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  715  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  745  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  748  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  751  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  757  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  759  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  762  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  768  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  772  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  775  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  797  git checkout -- nodes/vectornav/src/vn200_node.cpp
+  809  nano vn200_node.cpp 
+  816  git add nodes/vectornav/src/vn200_node.cpp 
+  826  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  832  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  902  nano nodes/vectornav/src/vn200_node.cpp 
+  922  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  931  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  938  nano nodes/vectornav/src/vn200_node.cpp 
+  942  nano src/vectornav/src/vn200_node.cpp 
+  951  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  957  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  972  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+  979  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1020  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1028  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1034  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1037  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1040  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1045  roslaunch vectornav vn200.launch 
+ 1068  nano vn200_node.cpp 
+ 1077  sudo roslaunch vectornav vn200.launch 
+ 1110  git checkout ttyvn200
+ 1124  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1133  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1153  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1162  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1165  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1172  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1180  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1189  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1198  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1211  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1219  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1259  nano nodes/vectornav/src/vn200_node.cpp 
+ 1274  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1311  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1316  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1356  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1361  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1366  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1371  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1375  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1386  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1392  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1395  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1399  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1402  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1408  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1411  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1418  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1424  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1430  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1433  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1436  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1439  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1445  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1448  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1453  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1456  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1462  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1463  av vn200.launch 2> /home/pi/instemp.rosrun ascii_logger listener.py > /home/pi/ascii.log
+ 1467  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1470  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1475  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1478  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1483  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1486  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1489  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1492  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1495  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1498  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1501  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1504  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1507  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1510  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1513  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1516  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1519  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1522  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1525  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1528  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1531  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1534  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1537  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1540  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1543  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1546  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1549  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1552  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1555  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1558  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1561  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1564  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1567  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1570  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1573  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1576  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1579  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1582  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1585  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1588  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1591  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1594  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1597  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1600  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1603  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1606  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1609  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1612  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1615  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1618  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1621  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1624  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1627  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1630  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1633  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1636  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1639  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1642  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1645  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1648  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1651  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1654  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1657  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1660  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1663  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1666  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1669  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1672  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1675  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1678  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1681  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1684  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1687  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1690  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1693  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1696  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1699  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1702  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1705  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1708  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1711  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1714  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1717  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1720  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1723  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1726  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1729  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1732  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1735  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1738  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1741  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1744  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1747  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1750  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1753  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1756  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1759  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1762  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1765  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1768  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1771  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1774  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1777  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1780  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1783  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1786  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1789  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1792  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1795  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1798  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1801  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1804  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1807  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1810  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1813  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1816  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1819  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1822  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1825  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1828  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1831  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1834  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1837  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1840  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1843  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1846  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1849  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1852  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1855  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1858  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1861  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1864  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1867  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1870  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1873  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1876  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1879  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1882  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1885  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1888  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1890  nice -n -10 roslaunch vectornav vn200.launch 2> /home/pi/instemp.log
+ 1954  cd ../CMakeFiles/vn200_node.dir/
+ 1958  nano vn200_node.cpp.o 
+ 1983  nano vn200_node 
+ 2014  history | grep vn200
+ 2015  history | grep vn200 >> his_command.txt 
