@@ -1,0 +1,2 @@
+ascii_logger:ethzasl_xsens_driver:gps_umd/gps_common:gps_umd/gps_umd:imu_sequenced:pozyx:ublox/ublox:ublox/ublox_gps:ublox/ublox_msgs:ublox/ublox_serialization:vectornav
+-DCATKIN_DEVEL_PREFIX=/home/pi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/pi/catkin_ws/install -G Unix Makefiles

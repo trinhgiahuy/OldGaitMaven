@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: xsens_driver
+Description: Description of xsens_driver
+Version: 1.0.3
+Cflags: 
+Libs: -L/home/pi/catkin_ws/devel/lib 
+Requires: rospy std_msgs tf sensor_msgs geometry_msgs gps_common diagnostic_msgs imu_sequenced

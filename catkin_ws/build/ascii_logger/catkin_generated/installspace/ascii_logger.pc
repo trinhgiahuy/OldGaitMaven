@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/install
+
+Name: ascii_logger
+Description: Description of ascii_logger
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/pi/catkin_ws/install/lib 
+Requires: 

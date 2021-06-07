@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: pozyx
+Description: Description of pozyx
+Version: 0.0.1
+Cflags: -I/home/pi/catkin_ws/devel/include -I/home/pi/catkin_ws/src/pozyx/include
+Libs: -L/home/pi/catkin_ws/devel/lib 
+Requires: message_runtime

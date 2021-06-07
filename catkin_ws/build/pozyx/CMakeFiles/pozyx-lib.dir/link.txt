@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libpozyx-lib.so -o /home/pi/catkin_ws/devel/lib/libpozyx-lib.so CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/Pozyx_core.cpp.o CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/Pozyx_lib.cpp.o CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/helpers.cpp.o 

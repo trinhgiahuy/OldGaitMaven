@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: gps_common
+Description: Description of gps_common
+Version: 0.1.7
+Cflags: -I/home/pi/catkin_ws/devel/include -I/home/pi/catkin_ws/src/gps_umd/gps_common/include
+Libs: -L/home/pi/catkin_ws/devel/lib 
+Requires: message_runtime
