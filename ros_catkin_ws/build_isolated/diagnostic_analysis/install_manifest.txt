@@ -1,0 +1,12 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/diagnostic_analysis.pc
+/opt/ros/kinetic/share/diagnostic_analysis/cmake/diagnostic_analysisConfig.cmake
+/opt/ros/kinetic/share/diagnostic_analysis/cmake/diagnostic_analysisConfig-version.cmake
+/opt/ros/kinetic/share/diagnostic_analysis/package.xml
+/opt/ros/kinetic/lib/diagnostic_analysis/export_csv.py
+/opt/ros/kinetic/lib/diagnostic_analysis/sparse_csv.py

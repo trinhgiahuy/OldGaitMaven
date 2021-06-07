@@ -1,0 +1,11 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/tf2_tools.pc
+/opt/ros/kinetic/share/tf2_tools/cmake/tf2_toolsConfig.cmake
+/opt/ros/kinetic/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake
+/opt/ros/kinetic/share/tf2_tools/package.xml
+/opt/ros/kinetic/lib/tf2_tools/view_frames.py

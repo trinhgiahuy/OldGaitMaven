@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: test_bond
+Description: Description of test_bond
+Version: 1.7.19
+Cflags: -I/opt/ros/kinetic/include
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 

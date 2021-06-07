@@ -1,0 +1,14 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/diagnostic_updater.pc
+/opt/ros/kinetic/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+/opt/ros/kinetic/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+/opt/ros/kinetic/share/diagnostic_updater/package.xml
+/opt/ros/kinetic/include/diagnostic_updater/DiagnosticStatusWrapper.h
+/opt/ros/kinetic/include/diagnostic_updater/diagnostic_updater.h
+/opt/ros/kinetic/include/diagnostic_updater/publisher.h
+/opt/ros/kinetic/include/diagnostic_updater/update_functions.h

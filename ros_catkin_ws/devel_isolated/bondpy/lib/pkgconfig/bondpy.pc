@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/devel_isolated/bondpy
+
+Name: bondpy
+Description: Description of bondpy
+Version: 1.7.19
+Cflags: 
+Libs: -L/home/pi/ros_catkin_ws/devel_isolated/bondpy/lib 
+Requires: 

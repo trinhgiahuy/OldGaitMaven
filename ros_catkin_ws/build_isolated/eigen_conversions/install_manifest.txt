@@ -1,0 +1,13 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/eigen_conversions.pc
+/opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig.cmake
+/opt/ros/kinetic/share/eigen_conversions/cmake/eigen_conversionsConfig-version.cmake
+/opt/ros/kinetic/share/eigen_conversions/package.xml
+/opt/ros/kinetic/include/eigen_conversions/eigen_kdl.h
+/opt/ros/kinetic/include/eigen_conversions/eigen_msg.h
+/opt/ros/kinetic/lib/libeigen_conversions.so

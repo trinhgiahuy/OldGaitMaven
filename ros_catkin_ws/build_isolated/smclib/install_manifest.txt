@@ -1,0 +1,11 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/smclib.pc
+/opt/ros/kinetic/share/smclib/cmake/smclibConfig.cmake
+/opt/ros/kinetic/share/smclib/cmake/smclibConfig-version.cmake
+/opt/ros/kinetic/share/smclib/package.xml
+/opt/ros/kinetic/include/smclib/statemap.h

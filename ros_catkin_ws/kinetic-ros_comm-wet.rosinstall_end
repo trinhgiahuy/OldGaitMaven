@@ -1,0 +1,55 @@
+- git:
+    local-name: common_msgs
+    uri: https://github.com/ros/common_msgs.git
+    version: jade-devel
+
+- git:
+    local-name: tf
+    uri: https://github.com/ros/geometry.git
+    version: indigo-devel
+
+- git:
+    local-name: diagnostic_updater
+    uri: https://github.com/ros/diagnostics.git
+    version: indigo-devel
+
+- git:
+    local-name: tf2
+    uri: https://github.com/ros/geometry2.git
+    version: indigo-devel
+
+- git:
+    local-name: actionlib
+    uri: https://github.com/ros/actionlib.git
+    version: indigo-devel
+
+- git:
+    local-name: python_orocos_kdl
+    uri: https://github.com/orocos/orocos_kinematics_dynamics.git
+    version: master
+
+- git:
+    local-name: bondcpp
+    uri: https://github.com/ros/bond_core.git
+    version: master
+
+- git:
+    local-name: rosbag_migration_rule
+    uri: https://github.com/ros/rosbag_migration_rule.git
+    version: master
+
+- git:
+    local-name: pluginlib
+    uri: https://github.com/ros/pluginlib.git
+    version: indigo-devel
+
+- git:
+    local-name: angles
+    uri: https://github.com/ros/angles.git
+    version: master
+
+- git:
+    local-name: class_loader
+    uri: https://github.com/ros/class_loader.git
+    version: indigo-devel
+

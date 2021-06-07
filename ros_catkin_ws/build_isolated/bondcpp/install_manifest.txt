@@ -1,0 +1,14 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/bondcpp.pc
+/opt/ros/kinetic/share/bondcpp/cmake/bondcppConfig.cmake
+/opt/ros/kinetic/share/bondcpp/cmake/bondcppConfig-version.cmake
+/opt/ros/kinetic/share/bondcpp/package.xml
+/opt/ros/kinetic/include/bondcpp/bond.h
+/opt/ros/kinetic/include/bondcpp/BondSM_sm.h
+/opt/ros/kinetic/include/bondcpp/timeout.h
+/opt/ros/kinetic/lib/libbondcpp.so

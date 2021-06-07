@@ -1,0 +1,8 @@
+prefix=/home/pi/ros_catkin_ws/devel_isolated/self_test
+
+Name: self_test
+Description: Description of self_test
+Version: 1.9.2
+Cflags: -I/home/pi/ros_catkin_ws/src/diagnostic_updater/self_test/include
+Libs: -L/home/pi/ros_catkin_ws/devel_isolated/self_test/lib 
+Requires: diagnostic_msgs diagnostic_updater roscpp

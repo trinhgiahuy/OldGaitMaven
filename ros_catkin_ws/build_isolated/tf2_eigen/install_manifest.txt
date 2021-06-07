@@ -1,0 +1,11 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/tf2_eigen.pc
+/opt/ros/kinetic/share/tf2_eigen/cmake/tf2_eigenConfig.cmake
+/opt/ros/kinetic/share/tf2_eigen/cmake/tf2_eigenConfig-version.cmake
+/opt/ros/kinetic/share/tf2_eigen/package.xml
+/opt/ros/kinetic/include/tf2_eigen/tf2_eigen.h

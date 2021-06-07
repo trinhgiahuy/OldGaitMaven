@@ -1,0 +1,11 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/tf2_py.pc
+/opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig.cmake
+/opt/ros/kinetic/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+/opt/ros/kinetic/share/tf2_py/package.xml
+/opt/ros/kinetic/lib/python2.7/dist-packages/tf2_py/_tf2.so

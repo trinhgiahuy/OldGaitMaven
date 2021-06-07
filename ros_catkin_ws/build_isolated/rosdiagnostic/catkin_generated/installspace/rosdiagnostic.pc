@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: rosdiagnostic
+Description: Description of rosdiagnostic
+Version: 1.9.2
+Cflags: 
+Libs: -L/opt/ros/kinetic/lib 
+Requires: 

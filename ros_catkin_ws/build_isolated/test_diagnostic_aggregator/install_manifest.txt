@@ -1,0 +1,13 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/test_diagnostic_aggregator.pc
+/opt/ros/kinetic/share/test_diagnostic_aggregator/cmake/test_diagnostic_aggregatorConfig.cmake
+/opt/ros/kinetic/share/test_diagnostic_aggregator/cmake/test_diagnostic_aggregatorConfig-version.cmake
+/opt/ros/kinetic/share/test_diagnostic_aggregator/package.xml
+/opt/ros/kinetic/include/test_diagnostic_aggregator/fail_init_analyzer.h
+/opt/ros/kinetic/include/test_diagnostic_aggregator/match_no_analyze_analyzer.h
+/opt/ros/kinetic/share/test_diagnostic_aggregator/test_diagnostic_aggregator_plugin.xml

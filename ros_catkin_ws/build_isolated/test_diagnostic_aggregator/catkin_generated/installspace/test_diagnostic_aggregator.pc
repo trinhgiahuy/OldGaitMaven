@@ -1,0 +1,8 @@
+prefix=/opt/ros/kinetic
+
+Name: test_diagnostic_aggregator
+Description: Description of test_diagnostic_aggregator
+Version: 1.9.2
+Cflags: -I/opt/ros/kinetic/include
+Libs: -L/opt/ros/kinetic/lib -ltest_diagnostic_aggregator
+Requires: diagnostic_aggregator diagnostic_msgs pluginlib roscpp rospy

@@ -1,0 +1,14 @@
+/opt/ros/kinetic/_setup_util.py
+/opt/ros/kinetic/env.sh
+/opt/ros/kinetic/setup.bash
+/opt/ros/kinetic/setup.sh
+/opt/ros/kinetic/setup.zsh
+/opt/ros/kinetic/.rosinstall
+/opt/ros/kinetic/lib/pkgconfig/self_test.pc
+/opt/ros/kinetic/share/self_test/cmake/self_testConfig.cmake
+/opt/ros/kinetic/share/self_test/cmake/self_testConfig-version.cmake
+/opt/ros/kinetic/share/self_test/package.xml
+/opt/ros/kinetic/include/self_test/self_test.h
+/opt/ros/kinetic/bin/run_selftest
+/opt/ros/kinetic/bin/selftest_example
+/opt/ros/kinetic/bin/selftest_rostest
