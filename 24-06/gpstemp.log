@@ -1,0 +1,2 @@
+[31m[vectornav-2] process has died [pid 2523, exit code -11, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/829155d8-a2b4-11e7-a6c0-b827eb03ca80/vectornav-2.log].
+log file: /home/pi/.ros/log/829155d8-a2b4-11e7-a6c0-b827eb03ca80/vectornav-2*.log[0m
