@@ -1,24 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(genmsg)
-find_package(catkin REQUIRED)
-
-catkin_package(CFG_EXTRAS genmsg-extras.cmake)
-
-install(
-  FILES
-  cmake/pkg-genmsg.cmake.em
-  cmake/pkg-genmsg.context.in
-  cmake/pkg-msg-extras.cmake.in
-  cmake/pkg-msg-paths.cmake.develspace.in
-  cmake/pkg-msg-paths.cmake.installspace.in
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/cmake)
-
-catkin_python_setup()
-
-install(
-  PROGRAMS scripts/genmsg_check_deps.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:a4ff9bcaeffd31aba11c0471f49450e754f603b2d1a0237e02acec73f8378462
+size 569

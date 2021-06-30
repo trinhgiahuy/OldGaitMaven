@@ -1,7 +1,3 @@
-try:
-  length = len(self.array)
-  buff.write(_struct_I.pack(length))
-  for val1 in self.array:
-    buff.write(_get_struct_i().pack(val1.data))
-except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
-except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
+version https://git-lfs.github.com/spec/v1
+oid sha256:9925d9d3c8b887e888369f06466e2c0fb0e02cc56c0a53407b4651ff71ade2fa
+size 422

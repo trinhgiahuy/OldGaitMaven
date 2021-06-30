@@ -1,30 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(d)
-find_package(catkin REQUIRED)
-
-catkin_package(
-  INCLUDE_DIRS include
-  LIBRARIES d
-  )
-
-find_package(c)
-find_package(b)
-find_package(a)
-include_directories(${b_INCLUDE_DIRS})
-
-include_directories(${c_INCLUDE_DIRS})
-
-add_library(d SHARED lib.cpp)
-target_link_libraries(d ${b_LIBRARIES} ${c_LIBRARIES})
-
-add_message_files(
-  DIRECTORY msg
-  FILES DMsg.msg
-)
-
-
-# catkin_python_setup()
-# enable_python(d)
-
-# generate_messages(DEPENDENCIES std_msgs b c a)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ff40830e8138dc3be8d243f81590dbfe1ab8b0ba1b84fe0b2a352ec4b040b9e
+size 502

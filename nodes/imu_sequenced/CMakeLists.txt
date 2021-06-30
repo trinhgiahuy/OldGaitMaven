@@ -1,24 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(imu_sequenced)
-find_package(catkin REQUIRED sensor_msgs message_generation)
-
-include_directories(${catkin_INCLUDE_DIRS})
-
-add_message_files(
-  FILES
-	ImuSequenced.msg
-)
-
-generate_messages(
-  DEPENDENCIES
-	sensor_msgs
-)
-
-catkin_package(
-	CATKIN_DEPENDS message_runtime
-)
-
-
-#target_link_libraries(imu_sequenced
-#        ${catkin_LIBRARIES}
-#)
+version https://git-lfs.github.com/spec/v1
+oid sha256:26f2381b8330de79b55a16e9565e347e0adfde2bb319af8251da22f4b335f620
+size 387

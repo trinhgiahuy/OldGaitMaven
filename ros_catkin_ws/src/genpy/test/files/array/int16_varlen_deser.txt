@@ -1,7 +1,3 @@
-start = end
-end += 4
-(length,) = _struct_I.unpack(str[start:end])
-pattern = '<%sh'%length
-start = end
-end += struct.calcsize(pattern)
-data = struct.unpack(pattern, str[start:end])
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b16543d4c13e31f01c4df1f6c70edc7bba92c1867c3f81bd13e8177a21f9f3f
+size 180

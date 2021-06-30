@@ -1,14 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(std_srvs)
-
-find_package(catkin REQUIRED COMPONENTS message_generation)
-
-add_service_files(DIRECTORY srv
-  FILES
-  Empty.srv
-  SetBool.srv
-  Trigger.srv)
-
-generate_messages()
-
-catkin_package(CATKIN_DEPENDS message_runtime)
+version https://git-lfs.github.com/spec/v1
+oid sha256:aca7d50541c7c791ad108289a05e5d809d4d5e56b3cf855642d0f062d9c8ead5
+size 268

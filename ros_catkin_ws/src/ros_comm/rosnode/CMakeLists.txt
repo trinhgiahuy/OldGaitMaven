@@ -1,11 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(rosnode)
-find_package(catkin REQUIRED)
-catkin_package()
-
-catkin_python_setup()
-
-if(CATKIN_ENABLE_TESTING)
-  find_package(rostest)
-  add_rostest(test/rosnode.test)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:0d94eb675519d85294708610c09aa9a1eb6dc4ef3d6286c0795daced47c80302
+size 217

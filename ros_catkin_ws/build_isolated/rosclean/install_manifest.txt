@@ -1,10 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/rosclean.pc
-/opt/ros/kinetic/share/rosclean/cmake/roscleanConfig.cmake
-/opt/ros/kinetic/share/rosclean/cmake/roscleanConfig-version.cmake
-/opt/ros/kinetic/share/rosclean/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:1426f5ed4fcafa5c120ec1ad2ea12c17bb40c9af7ce805a0a5eadfa326586428
+size 378

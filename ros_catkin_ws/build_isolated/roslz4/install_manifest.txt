@@ -1,13 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/roslz4.pc
-/opt/ros/kinetic/share/roslz4/cmake/roslz4Config.cmake
-/opt/ros/kinetic/share/roslz4/cmake/roslz4Config-version.cmake
-/opt/ros/kinetic/share/roslz4/package.xml
-/opt/ros/kinetic/lib/libroslz4.so
-/opt/ros/kinetic/lib/python2.7/dist-packages/roslz4/_roslz4.so
-/opt/ros/kinetic/include/roslz4/lz4s.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6dfbf570f9e56ebae511220070b607d9fa3c0d82b81293abdc2a68a41a82e26
+size 502

@@ -1,6 +1,3 @@
-length = len(data)
-# - if encoded as a list instead, serialize as bytes instead of string
-if type(data) in [list, tuple]:
-  buff.write(struct.pack('<I%sB'%length, length, *data))
-else:
-  buff.write(struct.pack('<I%ss'%length, length, data))
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0fdbed3a3d7f050188f77a90c2c724f3132d731ab8dc4bad27f0f02eff0d383
+size 241

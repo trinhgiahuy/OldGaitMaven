@@ -1,14 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf_conversions.pc
-/opt/ros/kinetic/share/tf_conversions/cmake/tf_conversionsConfig.cmake
-/opt/ros/kinetic/share/tf_conversions/cmake/tf_conversionsConfig-version.cmake
-/opt/ros/kinetic/share/tf_conversions/package.xml
-/opt/ros/kinetic/include/tf_conversions/tf_kdl.h
-/opt/ros/kinetic/include/tf_conversions/mainpage.dox
-/opt/ros/kinetic/include/tf_conversions/tf_eigen.h
-/opt/ros/kinetic/lib/libtf_conversions.so
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e8aae5eb5d86189632aa1f4c10b4291f2121043d7ef7d542b2732268ff6e76d
+size 609

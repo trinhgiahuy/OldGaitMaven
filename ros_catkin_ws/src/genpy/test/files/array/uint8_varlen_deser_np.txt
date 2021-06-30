@@ -1,6 +1,3 @@
-start = end
-end += 4
-(length,) = _struct_I.unpack(str[start:end])
-start = end
-end += length
-data = str[start:end]
+version https://git-lfs.github.com/spec/v1
+oid sha256:27e4e0733dc13b5db29e262b4c0c7008754d75af42e8118372f74a47c042fc32
+size 114

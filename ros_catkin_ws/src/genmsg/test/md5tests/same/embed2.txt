@@ -1,1 +1,3 @@
-Log log
+version https://git-lfs.github.com/spec/v1
+oid sha256:a16e4f09840517bdb466e6424d13a61a8e245ce20070b17f4fc8835d4df672a4
+size 8

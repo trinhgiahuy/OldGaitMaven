@@ -1,1 +1,3 @@
-buff.write(data.tostring())
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d5ccdaa9b473171fca9ee56d55640f7ab7688e56492b9257aeb7a472e7925cc
+size 28

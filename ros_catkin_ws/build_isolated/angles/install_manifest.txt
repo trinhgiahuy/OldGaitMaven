@@ -1,11 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/angles.pc
-/opt/ros/kinetic/share/angles/cmake/anglesConfig.cmake
-/opt/ros/kinetic/share/angles/cmake/anglesConfig-version.cmake
-/opt/ros/kinetic/share/angles/package.xml
-/opt/ros/kinetic/include/angles/angles.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:05719dff4b8f407db2f03fd4e95f256499e6385c4098aed09b2554652631ad30
+size 407

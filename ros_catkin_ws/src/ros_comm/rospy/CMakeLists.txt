@@ -1,14 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(rospy)
-find_package(catkin REQUIRED)
-catkin_package()
-catkin_python_setup()
-
-# install legacy infrastructure needed by rosbuild
-install(FILES rosbuild/rospy.cmake
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild)
-catkin_install_python(PROGRAMS
-  rosbuild/scripts/genmsg_py.py
-  rosbuild/scripts/gensrv_py.py
-  rosbuild/scripts/genutil.py
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild/scripts)
+version https://git-lfs.github.com/spec/v1
+oid sha256:4317f21a2ae130b24581ab324bee6dff03f3dd86e4a70ee5a89d0ab985d20686
+size 462

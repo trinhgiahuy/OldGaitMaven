@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,librosconsole_log4cxx.so -o /home/pi/ros_catkin_ws/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so CMakeFiles/rosconsole_log4cxx.dir/src/rosconsole/impl/rosconsole_log4cxx.cpp.o /home/pi/ros_catkin_ws/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -Wl,-rpath,/home/pi/ros_catkin_ws/devel_isolated/rosconsole/lib: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:34b8cc272fe9ea61ebc19499960bc2d0400dc12829ae819c95eca1bb1cbf745a
+size 505

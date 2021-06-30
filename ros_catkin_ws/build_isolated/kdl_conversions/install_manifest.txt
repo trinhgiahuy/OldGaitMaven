@@ -1,12 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/kdl_conversions.pc
-/opt/ros/kinetic/share/kdl_conversions/cmake/kdl_conversionsConfig.cmake
-/opt/ros/kinetic/share/kdl_conversions/cmake/kdl_conversionsConfig-version.cmake
-/opt/ros/kinetic/share/kdl_conversions/package.xml
-/opt/ros/kinetic/include/kdl_conversions/kdl_msg.h
-/opt/ros/kinetic/lib/libkdl_conversions.so
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ef6181d01ddb5314153fe462972e1d6147ca74bb3c16750259873b75ea331c1
+size 514

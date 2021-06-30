@@ -1,1 +1,3 @@
-buff.write(_get_struct_10h().pack(*data))
+version https://git-lfs.github.com/spec/v1
+oid sha256:a80083f3035b63e292af4cb53ee44c608773f64c2630b9a38bc0d0ca2ee69aad
+size 42

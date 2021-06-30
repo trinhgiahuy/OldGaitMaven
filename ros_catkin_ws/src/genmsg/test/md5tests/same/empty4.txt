@@ -1,6 +1,3 @@
-# A comment
-
-# With multiple lines
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f527c5973757d0abe7f336e1c58252c9a25e70851b17af42ea51c9876e312ed
+size 38

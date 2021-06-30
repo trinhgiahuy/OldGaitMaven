@@ -1,35 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(roslisp)
-
-find_package(catkin REQUIRED)
-catkin_package(CFG_EXTRAS roslisp-extras.cmake)
-
-add_subdirectory(env-hooks)
-
-foreach(dir
-    load-manifest
-    rosbuild
-    roslisp-msg-protocol
-    src
-    s-xml
-    s-xml-rpc
-    utils)
-  install(DIRECTORY ${dir}
-      DESTINATION share/${PROJECT_NAME}
-      PATTERN ".svn" EXCLUDE
-      PATTERN "genmsg_lisp.py" EXCLUDE)
-endforeach()
-
-# install legacy infrastructure needed by rosbuild
-install(FILES manifest.xml
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-install(DIRECTORY scripts
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-    USE_SOURCE_PERMISSIONS
-    PATTERN ".svn" EXCLUDE
-    PATTERN "genmsg_lisp.py" EXCLUDE)
-install(FILES rosbuild/roslisp.cmake
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild)
-install(PROGRAMS
-    rosbuild/scripts/genmsg_lisp.py
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/rosbuild/scripts)
+version https://git-lfs.github.com/spec/v1
+oid sha256:913ea1e057558607da1b4863bb233d3bbf00f93b2bb0e0ec77b057b0d7b78605
+size 948

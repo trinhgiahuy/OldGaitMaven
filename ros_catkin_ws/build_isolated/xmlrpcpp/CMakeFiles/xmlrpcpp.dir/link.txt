@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libxmlrpcpp.so -o /home/pi/ros_catkin_ws/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so CMakeFiles/xmlrpcpp.dir/src/XmlRpcClient.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcDispatch.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcServer.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcServerConnection.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcServerMethod.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcSocket.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcSource.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcUtil.cpp.o CMakeFiles/xmlrpcpp.dir/src/XmlRpcValue.cpp.o  -L/opt/ros/kinetic/lib 
+version https://git-lfs.github.com/spec/v1
+oid sha256:980ae710e3236461aeee00c8850b36c06fe618eb6adce2cad829d8a1759d18f9
+size 601

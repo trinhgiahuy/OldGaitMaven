@@ -1,4 +1,3 @@
-length = len(data)
-buff.write(_struct_I.pack(length))
-for val0 in data:
-  buff.write(_get_struct_i().pack(val0.data))
+version https://git-lfs.github.com/spec/v1
+oid sha256:552c2b884ed06666324eed0b54fa8bc34b2099c79b815e7967a7a49072b2a265
+size 118

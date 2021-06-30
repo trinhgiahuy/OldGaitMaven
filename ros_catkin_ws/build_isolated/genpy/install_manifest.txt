@@ -1,14 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/genpy.pc
-/opt/ros/kinetic/share/genpy/cmake/genpy-extras.cmake
-/opt/ros/kinetic/share/genpy/cmake/genpyConfig.cmake
-/opt/ros/kinetic/share/genpy/cmake/genpyConfig-version.cmake
-/opt/ros/kinetic/share/genpy/package.xml
-/opt/ros/kinetic/etc/ros/genmsg/genpy
-/opt/ros/kinetic/lib/genpy/genmsg_py.py
-/opt/ros/kinetic/lib/genpy/gensrv_py.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:290dca4bfbc097cbcc86d3ac689fd950e26f7213bab7950083fdc405963044e0
+size 532

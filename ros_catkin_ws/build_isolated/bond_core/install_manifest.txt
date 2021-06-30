@@ -1,7 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/share/bond_core/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:201b55062e3f8b51b7fa40eb264adb67dadb9ef8dd2e3e7c4bb3331d3cd72549
+size 210

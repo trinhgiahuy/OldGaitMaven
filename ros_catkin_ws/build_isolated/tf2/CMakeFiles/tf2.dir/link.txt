@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libtf2.so -o /home/pi/ros_catkin_ws/devel_isolated/tf2/lib/libtf2.so CMakeFiles/tf2.dir/src/cache.cpp.o CMakeFiles/tf2.dir/src/buffer_core.cpp.o CMakeFiles/tf2.dir/src/static_cache.cpp.o -lboost_signals -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread /opt/ros/kinetic/lib/libroscpp_serialization.so /opt/ros/kinetic/lib/librostime.so /opt/ros/kinetic/lib/libcpp_common.so -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lconsole_bridge -lconsole_bridge /opt/ros/kinetic/lib/libroscpp_serialization.so /opt/ros/kinetic/lib/librostime.so /opt/ros/kinetic/lib/libcpp_common.so -lconsole_bridge -Wl,-rpath,/opt/ros/kinetic/lib: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c747fa8bc60cd5a7a2f862e3716d260898992e86295860a890dc32159bffc6b
+size 760

@@ -1,11 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf2_sensor_msgs.pc
-/opt/ros/kinetic/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
-/opt/ros/kinetic/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
-/opt/ros/kinetic/share/tf2_sensor_msgs/package.xml
-/opt/ros/kinetic/include/tf2_sensor_msgs/tf2_sensor_msgs.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5299ca060dc16a67ff3e8b606345a59335534b24ca0f05826c54a3ad774c2be
+size 479

@@ -1,10 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(rosmsg)
-find_package(catkin)
-catkin_package()
-
-catkin_python_setup()
-
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:600441f3151e05b077dcc8a05c287c561fd6bd4aa8cc3859dd2323efb9e51468
+size 179

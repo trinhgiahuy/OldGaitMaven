@@ -1,14 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/self_test.pc
-/opt/ros/kinetic/share/self_test/cmake/self_testConfig.cmake
-/opt/ros/kinetic/share/self_test/cmake/self_testConfig-version.cmake
-/opt/ros/kinetic/share/self_test/package.xml
-/opt/ros/kinetic/include/self_test/self_test.h
-/opt/ros/kinetic/bin/run_selftest
-/opt/ros/kinetic/bin/selftest_example
-/opt/ros/kinetic/bin/selftest_rostest
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca56f4722f0b94c49de11ae08a0773079a7ba807b4526bc540088b6ac39e4248
+size 541

@@ -1,16 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(rostopic)
-find_package(catkin REQUIRED)
-catkin_package()
-
-catkin_python_setup()
-
-catkin_install_python(PROGRAMS scripts/rostopic
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-
-if(CATKIN_ENABLE_TESTING)
-  find_package(rostest)
-  add_rostest(test/rostopic.test)
-  #add_rostest(test/rostopic2.test)
-  catkin_add_nosetests(test/test_rostopic_command_line_offline.py)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec7ff5ee4baa257cd3ca822919e026ee37fdb7c010a7c1bc0c67231df81d8e9d
+size 420

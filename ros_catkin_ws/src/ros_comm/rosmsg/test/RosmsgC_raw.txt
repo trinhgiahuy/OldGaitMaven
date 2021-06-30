@@ -1,4 +1,3 @@
-test_rosmaster/String s1
-  string data
-test_rosmaster/String s2
-  string data
+version https://git-lfs.github.com/spec/v1
+oid sha256:df7ad5d437c12fa656738adbedac7037cf6144a78b9863213f35eb13dbbe9158
+size 78

@@ -1,2 +1,3 @@
-/opt/ros/kinetic/lib/python2.7/dist-packages/PyKDL.so
-/opt/ros/kinetic/share/python_orocos_kdl/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:a679a01f67378aff5c750bb5b87dab4f2a528340cd14d74b974faa8d7e60c626
+size 106

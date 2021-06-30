@@ -1,11 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf2_geometry_msgs.pc
-/opt/ros/kinetic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig.cmake
-/opt/ros/kinetic/share/tf2_geometry_msgs/cmake/tf2_geometry_msgsConfig-version.cmake
-/opt/ros/kinetic/share/tf2_geometry_msgs/package.xml
-/opt/ros/kinetic/include/tf2_geometry_msgs/tf2_geometry_msgs.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:90aab4f20cb936163e8cf7f6ca30a6b953cbc6f044a7cef62717b7711adc3f98
+size 495

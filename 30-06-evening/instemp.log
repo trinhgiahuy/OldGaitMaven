@@ -1,0 +1,3 @@
+[31m[FATAL] [1541017416.057537637]: Could not conenct to vn200 on port:/dev/ttyAMA0 @ Baud:460800;Did you add your user to the 'dialout' group in /etc/group?[0m
+[31m[vectornav-2] process has died [pid 1928, exit code 1, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/d4c58104-dd4a-11e8-bc7d-9befd0539884/vectornav-2.log].
+log file: /home/pi/.ros/log/d4c58104-dd4a-11e8-bc7d-9befd0539884/vectornav-2*.log[0m

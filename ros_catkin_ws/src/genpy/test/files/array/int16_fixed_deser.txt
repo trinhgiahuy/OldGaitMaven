@@ -1,3 +1,3 @@
-start = end
-end += 20
-data = _get_struct_10h().unpack(str[start:end])
+version https://git-lfs.github.com/spec/v1
+oid sha256:746eb7243808c59d29f515f3a5bc1cb0d842de6db1795952bcdd294fb862afdb
+size 70

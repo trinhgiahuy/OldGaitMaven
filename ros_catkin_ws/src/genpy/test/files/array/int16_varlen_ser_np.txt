@@ -1,4 +1,3 @@
-length = len(data)
-buff.write(_struct_I.pack(length))
-pattern = '<%sh'%length
-buff.write(data.tostring())
+version https://git-lfs.github.com/spec/v1
+oid sha256:48dd2283792eb3c1082a3b30bdec1090ba70767595ae71814fd8faaf77c4adb5
+size 106

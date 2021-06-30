@@ -1,7 +1,3 @@
-start = end
-end += 4
-(length,) = _struct_I.unpack(str[start:end])
-pattern = '<%sh'%length
-start = end
-end += struct.calcsize(pattern)
-data = numpy.frombuffer(str[start:end], dtype=numpy.int16, count=length)
+version https://git-lfs.github.com/spec/v1
+oid sha256:028d326b1e56f7e3283f5b2c3a92211dd3c58ea41e1982bd3c86ceecb1274f46
+size 207

@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,librosconsole_backend_interface.so -o /home/pi/ros_catkin_ws/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so CMakeFiles/rosconsole_backend_interface.dir/src/rosconsole/rosconsole_backend.cpp.o 
+version https://git-lfs.github.com/spec/v1
+oid sha256:176a01425f7f7ee271f590a6c07b0b343e739ceea9d8f3d48508ef64f1a942b1
+size 265

@@ -1,1 +1,3 @@
-string foo="#bar
+version https://git-lfs.github.com/spec/v1
+oid sha256:6318366b7419403efef350bc8a96d5dde77293015e830cec8b30cbe07c4bdc16
+size 17

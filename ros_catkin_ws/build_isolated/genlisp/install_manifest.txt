@@ -1,16 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/genlisp.pc
-/opt/ros/kinetic/share/genlisp/cmake/genlisp-extras.cmake
-/opt/ros/kinetic/share/genlisp/cmake/genlispConfig.cmake
-/opt/ros/kinetic/share/genlisp/cmake/genlispConfig-version.cmake
-/opt/ros/kinetic/share/genlisp/package.xml
-/opt/ros/kinetic/etc/ros/genmsg/genlisp
-/opt/ros/kinetic/share/common-lisp/rospack_nosubdirs
-/opt/ros/kinetic/share/genlisp/msg.lisp.template
-/opt/ros/kinetic/share/genlisp/srv.lisp.template
-/opt/ros/kinetic/lib/genlisp/gen_lisp.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffefdcd03e4f799a43e612b8586d29e72fad99755e54f098044fdb969dabb363
+size 662

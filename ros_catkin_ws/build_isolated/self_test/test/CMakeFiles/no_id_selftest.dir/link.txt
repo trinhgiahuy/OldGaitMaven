@@ -1,1 +1,3 @@
-/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/no_id_selftest.dir/no_id_selftest.cpp.o  -o /home/pi/ros_catkin_ws/devel_isolated/self_test/lib/self_test/no_id_selftest -rdynamic /opt/ros/kinetic/lib/libroscpp.so -lboost_signals -lboost_filesystem /opt/ros/kinetic/lib/librosconsole.so /opt/ros/kinetic/lib/librosconsole_log4cxx.so /opt/ros/kinetic/lib/librosconsole_backend_interface.so -llog4cxx -lboost_regex /opt/ros/kinetic/lib/libroscpp_serialization.so /opt/ros/kinetic/lib/librostime.so /opt/ros/kinetic/lib/libxmlrpcpp.so /opt/ros/kinetic/lib/libcpp_common.so -lconsole_bridge -lboost_system -lboost_thread -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -Wl,-rpath,/opt/ros/kinetic/lib 
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c0031a5586cf41b10ece74bbe1a08138a9e2e441a3892bc9095462bc7cbbb3d
+size 700

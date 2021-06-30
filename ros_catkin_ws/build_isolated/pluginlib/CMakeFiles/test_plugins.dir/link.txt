@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libtest_plugins.so -o /home/pi/ros_catkin_ws/devel_isolated/pluginlib/lib/libtest_plugins.so CMakeFiles/test_plugins.dir/test/test_plugins.cpp.o 
+version https://git-lfs.github.com/spec/v1
+oid sha256:eaedcf8f9e44a88246deaa45c9cf32214988f238ee728c59996e873f2d817bf7
+size 200

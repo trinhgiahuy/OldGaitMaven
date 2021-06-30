@@ -1,31 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/share/test_bond/srv/TestBond.srv
-/opt/ros/kinetic/share/test_bond/cmake/test_bond-msg-paths.cmake
-/opt/ros/kinetic/include/test_bond/TestBond.h
-/opt/ros/kinetic/include/test_bond/TestBondResponse.h
-/opt/ros/kinetic/include/test_bond/TestBondRequest.h
-/opt/ros/kinetic/share/roseus/ros/test_bond/srv/TestBond.l
-/opt/ros/kinetic/share/roseus/ros/test_bond/manifest.l
-/opt/ros/kinetic/share/common-lisp/ros/test_bond/srv/_package.lisp
-/opt/ros/kinetic/share/common-lisp/ros/test_bond/srv/_package_TestBond.lisp
-/opt/ros/kinetic/share/common-lisp/ros/test_bond/srv/TestBond.lisp
-/opt/ros/kinetic/share/common-lisp/ros/test_bond/srv/test_bond-srv.asd
-/opt/ros/kinetic/share/gennodejs/ros/test_bond/_index.js
-/opt/ros/kinetic/share/gennodejs/ros/test_bond/srv/_index.js
-/opt/ros/kinetic/share/gennodejs/ros/test_bond/srv/TestBond.js
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/__init__.py
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/srv/__init__.py
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/srv/_TestBond.py
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/srv/_TestBond.pyc
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/srv/__init__.pyc
-/opt/ros/kinetic/lib/python2.7/dist-packages/test_bond/__init__.pyc
-/opt/ros/kinetic/lib/pkgconfig/test_bond.pc
-/opt/ros/kinetic/share/test_bond/cmake/test_bond-msg-extras.cmake
-/opt/ros/kinetic/share/test_bond/cmake/test_bondConfig.cmake
-/opt/ros/kinetic/share/test_bond/cmake/test_bondConfig-version.cmake
-/opt/ros/kinetic/share/test_bond/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc72c47c4f4254a14beb88c2df15c215760ff8e44208aa76dbf6ad5213c29e5e
+size 1717

@@ -1,4 +1,3 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
-set(ROSPACK_MAKEDIST true)
-rosbuild_make_distribution(1.5.0-cmake)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e38dbce5e580f1a965d2715c8babedc1903b4e9afb6035eabb2767a44a02c253
+size 158

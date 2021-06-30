@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/pi/ros_catkin_ws/build_isolated/tf2_bullet/gtest/src -lpthread -Wl,-rpath,/home/pi/ros_catkin_ws/build_isolated/tf2_bullet/gtest/src 
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b2d3c582af1aa8381a71d6cae98114174fe27655603c0527000556f008e1ae0
+size 264

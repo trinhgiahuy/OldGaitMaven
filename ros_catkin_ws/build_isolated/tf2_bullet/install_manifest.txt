@@ -1,12 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf2_bullet.pc
-/opt/ros/kinetic/share/tf2_bullet/cmake/tf2_bulletConfig.cmake
-/opt/ros/kinetic/share/tf2_bullet/cmake/tf2_bulletConfig-version.cmake
-/opt/ros/kinetic/share/tf2_bullet/package.xml
-/opt/ros/kinetic/include/tf2_bullet/tf2_bullet/tf2_bullet.h
-/opt/ros/kinetic/include/tf2_bullet/tf2_bullet.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d45ff58dcbd701c8b62fd7a9e20ae608d46b626cb3a5d3b5789895fe24e14af
+size 499

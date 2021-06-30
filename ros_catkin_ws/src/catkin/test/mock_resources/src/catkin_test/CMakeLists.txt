@@ -1,19 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(catkin_test)
-find_package(catkin REQUIRED)
-
-find_package(genmsg REQUIRED)
-find_package(std_msgs REQUIRED)
-
-
-foreach(subdir
-    quux_msgs
-    quux_user
-    a
-    b
-    c
-    d
-    )
-  add_subdirectory(${subdir})
-endforeach()
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5ad9d2ccbd1b76e08d99f6b3c8ee66aac9c5a7ae2ebb2bb8fc9f9489e69961
+size 271

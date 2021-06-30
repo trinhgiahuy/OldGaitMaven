@@ -1,7 +1,3 @@
-int32 a
-rosgraph_msgs/Log log
-string s
-rosgraph_msgs/Clock time
-int32 b
-duration d
-time t
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbc849a41921f572f69453697ca64bb86da730b7a028d70e5c2e95ee2dc08b49
+size 90

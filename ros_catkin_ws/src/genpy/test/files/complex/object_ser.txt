@@ -1,2 +1,3 @@
-_v1 = data
-buff.write(_get_struct_i().pack(_v1.data))
+version https://git-lfs.github.com/spec/v1
+oid sha256:59be2fd50e4ec61ad5526f762912fbf07825a510f561cd113c84c498c014e0f8
+size 54

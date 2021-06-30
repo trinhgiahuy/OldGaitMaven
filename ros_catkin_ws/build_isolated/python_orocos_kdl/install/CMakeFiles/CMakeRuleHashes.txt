@@ -1,2 +1,3 @@
-# Hashes of file build rules.
-80153e51e94c0ba1820968b49fe619fa PyKDL/sipPyKDLpart0.cpp
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcac9e5cd0db5d19ca5dd057b2803bac10211859cd22f0a78baffb25b4cdc00f
+size 87

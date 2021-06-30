@@ -1,11 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(roswtf)
-find_package(catkin REQUIRED)
-catkin_package()
-catkin_python_setup()
-
-if(CATKIN_ENABLE_TESTING)
-  find_package(rostest)
-  add_rostest(test/roswtf.test)
-  catkin_add_nosetests(test)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:6629c68aefcf9c097ded87143c039f1927a44bc53abd366c8e7e985a21e3cc90
+size 243

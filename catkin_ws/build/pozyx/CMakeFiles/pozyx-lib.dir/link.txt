@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libpozyx-lib.so -o /home/pi/catkin_ws/devel/lib/libpozyx-lib.so CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/Pozyx_core.cpp.o CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/Pozyx_lib.cpp.o CMakeFiles/pozyx-lib.dir/include/Pozyx-custom-library/helpers.cpp.o 
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a4b227e3b337c0baf2af7a12b581ed905975296168b572bbd5a2cce0edc1f26
+size 328

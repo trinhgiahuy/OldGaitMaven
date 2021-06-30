@@ -1,11 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf2_tools.pc
-/opt/ros/kinetic/share/tf2_tools/cmake/tf2_toolsConfig.cmake
-/opt/ros/kinetic/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake
-/opt/ros/kinetic/share/tf2_tools/package.xml
-/opt/ros/kinetic/lib/tf2_tools/view_frames.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:3cdaa914e94d5b8c362a6fa83652806675deab978655781ac6aa74c7bde70ec9
+size 430

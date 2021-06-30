@@ -1,16 +1,3 @@
-# short comment about a
-int32 a #a
-# short comment about log
-Log log #log
-# 
-# short comment about s
-string s #s
-# short comment about time
-Clock time #time
-# short comment about b
-int32 b #b
-# short comment about d
-duration d #d
-# short comment about t
-time t # t
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc9eeba9332e8fa3efbd164ea0df1e721f59175b3c868d2b822db8d4c7ad1567
+size 266

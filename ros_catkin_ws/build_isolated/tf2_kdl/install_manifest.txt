@@ -1,13 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/tf2_kdl.pc
-/opt/ros/kinetic/share/tf2_kdl/cmake/tf2_kdlConfig.cmake
-/opt/ros/kinetic/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake
-/opt/ros/kinetic/share/tf2_kdl/package.xml
-/opt/ros/kinetic/include/tf2_kdl/tf2_kdl/tf2_kdl.h
-/opt/ros/kinetic/include/tf2_kdl/tf2_kdl.h
-/opt/ros/kinetic/lib/tf2_kdl/test.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:e19a34f347783da2181af9dafa6223b05d244ae0bf645ac9cc1b82747348efb0
+size 503

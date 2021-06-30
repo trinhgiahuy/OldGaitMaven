@@ -1,16 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(gencpp)
-find_package(catkin REQUIRED COMPONENTS genmsg)
-
-catkin_package(
-  CATKIN_DEPENDS genmsg
-  CFG_EXTRAS gencpp-extras.cmake
-)
-
-add_subdirectory(scripts)
-
-file(WRITE ${CATKIN_DEVEL_PREFIX}/${GENMSG_LANGS_DESTINATION}/gencpp "C++")
-install(FILES ${CATKIN_DEVEL_PREFIX}/${GENMSG_LANGS_DESTINATION}/gencpp
-  DESTINATION ${GENMSG_LANGS_DESTINATION})
-
-catkin_python_setup()
+version https://git-lfs.github.com/spec/v1
+oid sha256:33e0b6b6e48a303e33e4a9a18587547e9d2d6951959a4e719c3ff9d2697ddb25
+size 420

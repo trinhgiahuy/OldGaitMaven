@@ -1,11 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/smclib.pc
-/opt/ros/kinetic/share/smclib/cmake/smclibConfig.cmake
-/opt/ros/kinetic/share/smclib/cmake/smclibConfig-version.cmake
-/opt/ros/kinetic/share/smclib/package.xml
-/opt/ros/kinetic/include/smclib/statemap.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:7346b19245fc1bf19e5258a233cd2d18a83389455f1348b7da6b67d980ded9de
+size 409

@@ -1,1 +1,3 @@
-/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/test_roslz4.dir/test/roslz4_test.cpp.o  -o /home/pi/ros_catkin_ws/devel_isolated/roslz4/lib/roslz4/test_roslz4  -L/home/pi/ros_catkin_ws/build_isolated/roslz4/gtest -rdynamic gtest/libgtest.so /home/pi/ros_catkin_ws/devel_isolated/roslz4/lib/libroslz4.so -lpthread -llz4 -Wl,-rpath,/home/pi/ros_catkin_ws/build_isolated/roslz4/gtest:/home/pi/ros_catkin_ws/devel_isolated/roslz4/lib 
+version https://git-lfs.github.com/spec/v1
+oid sha256:2854ef5ab1361fe4a3b8fe00774d59b20a8349a5f1d0dc874690139113b7eaf9
+size 424

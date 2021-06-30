@@ -1,3 +1,3 @@
-uint32 a
-int32 b
-int32 c
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0266c7e7a1ae0a6ea2f440cd3f0c9c6dea69cb20160d13ae4752f8555476405
+size 25

@@ -1,10 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/roswtf.pc
-/opt/ros/kinetic/share/roswtf/cmake/roswtfConfig.cmake
-/opt/ros/kinetic/share/roswtf/cmake/roswtfConfig-version.cmake
-/opt/ros/kinetic/share/roswtf/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:7656d9873066b014bfc75bb448dedcc1da338efab65758e278d7daf2fd91d8c1
+size 366

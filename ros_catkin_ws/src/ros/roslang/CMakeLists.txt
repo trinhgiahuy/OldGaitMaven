@@ -1,7 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(roslang)
-find_package(catkin REQUIRED)
-catkin_package()
-
-install(FILES cmake/roslang.cmake
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/cmake)
+version https://git-lfs.github.com/spec/v1
+oid sha256:620e81a14d5f4ca0777e2255ef01ded980842bf1bbe87bf05e45949460c33cb8
+size 194

@@ -1,1 +1,3 @@
-rosgraph_msgs/Log log
+version https://git-lfs.github.com/spec/v1
+oid sha256:182c406d1201caee11a885504481685dc7a9b4f2211eb8b9cff452d85257b749
+size 22

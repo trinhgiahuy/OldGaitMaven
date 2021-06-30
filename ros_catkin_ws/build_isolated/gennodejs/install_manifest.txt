@@ -1,13 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/gennodejs.pc
-/opt/ros/kinetic/share/gennodejs/cmake/gennodejs-extras.cmake
-/opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig.cmake
-/opt/ros/kinetic/share/gennodejs/cmake/gennodejsConfig-version.cmake
-/opt/ros/kinetic/share/gennodejs/package.xml
-/opt/ros/kinetic/etc/ros/genmsg/gennodejs
-/opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:a354c5bd02d64fb5d9b4ffd6365ce8340c835bb138d0a080489288e08d2ccbd4
+size 533

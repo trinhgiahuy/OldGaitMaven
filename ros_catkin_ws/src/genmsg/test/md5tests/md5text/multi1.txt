@@ -1,7 +1,3 @@
-int32 a
-acffd30cd6b6de30f120938c17c593fb log
-string s
-a9c97c1d230cfc112e270351a944ee47 time
-int32 b
-duration d
-time t
+version https://git-lfs.github.com/spec/v1
+oid sha256:121360555c64eeebe687758d345b7b2e01bf7c08a946ca0d1479feec0f140f6a
+size 118

@@ -1,16 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/lib/pkgconfig/rosunit.pc
-/opt/ros/kinetic/share/rosunit/cmake/rosunit-extras.cmake
-/opt/ros/kinetic/share/rosunit/cmake/rosunitConfig.cmake
-/opt/ros/kinetic/share/rosunit/cmake/rosunitConfig-version.cmake
-/opt/ros/kinetic/share/rosunit/package.xml
-/opt/ros/kinetic/share/rosunit/scripts/check_test_ran.py
-/opt/ros/kinetic/share/rosunit/scripts/clean_junit_xml.py
-/opt/ros/kinetic/share/rosunit/scripts/pycoverage_to_html.py
-/opt/ros/kinetic/share/rosunit/scripts/summarize_results.py
-/opt/ros/kinetic/share/rosunit/scripts/test_results_dir.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:27e587d26a48a4c960f4b31114673d226d450b0443db3133b5b1350b449506cf
+size 725

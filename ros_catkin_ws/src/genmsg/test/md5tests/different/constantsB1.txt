@@ -1,3 +1,3 @@
-# protect against aliasing
-string s=u
-int32 a
+version https://git-lfs.github.com/spec/v1
+oid sha256:73d09cc3a60aa5ca22a18873e4adf3965aa191376f32dafa91cf10c513eccaa6
+size 46

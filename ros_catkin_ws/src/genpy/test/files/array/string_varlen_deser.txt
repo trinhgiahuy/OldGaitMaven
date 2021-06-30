@@ -1,15 +1,3 @@
-start = end
-end += 4
-(length,) = _struct_I.unpack(str[start:end])
-data = []
-for i in range(0, length):
-  start = end
-  end += 4
-  (length,) = _struct_I.unpack(str[start:end])
-  start = end
-  end += length
-  if python3:
-    val0 = str[start:end].decode('utf-8')
-  else:
-    val0 = str[start:end]
-  data.append(val0)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ea25ee082858a7c2c0b944b469661c11a03a2d0d81e072b40aea801ef3def25b
+size 315

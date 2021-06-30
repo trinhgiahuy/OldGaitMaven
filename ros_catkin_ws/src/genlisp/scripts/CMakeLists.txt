@@ -1,7 +1,3 @@
-install(
-  FILES msg.lisp.template srv.lisp.template
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
-
-catkin_install_python(
-  PROGRAMS gen_lisp.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+version https://git-lfs.github.com/spec/v1
+oid sha256:030091d39b6de704447646f8988f3a453dce6491c2150c77dc25f504bd785af6
+size 200

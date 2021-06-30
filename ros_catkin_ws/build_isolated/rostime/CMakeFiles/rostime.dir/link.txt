@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,librostime.so -o /home/pi/ros_catkin_ws/devel_isolated/rostime/lib/librostime.so CMakeFiles/rostime.dir/src/duration.cpp.o CMakeFiles/rostime.dir/src/rate.cpp.o CMakeFiles/rostime.dir/src/time.cpp.o -lboost_date_time -lboost_system -lboost_thread -lboost_chrono -lboost_atomic -lpthread -lrt 
+version https://git-lfs.github.com/spec/v1
+oid sha256:de446a616760dd938e3736b3d246a90c6deb7241d03b9fde2a3f755c298cf3fa
+size 347

@@ -1,7 +1,3 @@
-/opt/ros/kinetic/_setup_util.py
-/opt/ros/kinetic/env.sh
-/opt/ros/kinetic/setup.bash
-/opt/ros/kinetic/setup.sh
-/opt/ros/kinetic/setup.zsh
-/opt/ros/kinetic/.rosinstall
-/opt/ros/kinetic/share/diagnostics/package.xml
+version https://git-lfs.github.com/spec/v1
+oid sha256:875967f4e9172aa63e3b1d9fcfad96431fa037c249c3488338cc59d504a6b0eb
+size 212

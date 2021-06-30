@@ -1,1 +1,3 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/pi/ros_catkin_ws/build_isolated/rosmake/gtest/src -lpthread -Wl,-rpath,/home/pi/ros_catkin_ws/build_isolated/rosmake/gtest/src 
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3a1737832e7325b9688568fb9210a1a11582cce41353c6ded8c70fa889ecb02
+size 258

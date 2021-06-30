@@ -1,20 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(rosgraph)
-find_package(catkin REQUIRED)
-catkin_package()
-
-catkin_python_setup()
-
-# logging config file goes in both etc and package layout (for now).
-# want to get rid of package layout copy, but need to be able to
-# locate etc first.
-install(FILES conf/python_logging.conf
-  DESTINATION ${CATKIN_GLOBAL_ETC_DESTINATION}/ros)
-install(FILES conf/python_logging.conf
-  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/conf)
-catkin_install_python(PROGRAMS scripts/rosgraph
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-
-if(CATKIN_ENABLE_TESTING)
-  catkin_add_nosetests(test)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:935158ac4ef8c1989e702d901c9523e20ee004fd7126ff82a807c0e5a46531ea
+size 628

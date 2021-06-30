@@ -1,10 +1,3 @@
-cmake_minimum_required(VERSION 2.8.3)
-project(roscpp_traits)
-find_package(catkin REQUIRED)
-catkin_package(
-  INCLUDE_DIRS include
-  CATKIN_DEPENDS cpp_common rostime)
-
-install(DIRECTORY include/
-  DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}
-  FILES_MATCHING PATTERN "*.h")
+version https://git-lfs.github.com/spec/v1
+oid sha256:38293a3cf1a7d3cf153f9ed1cfe45f4c61c3a3aa79a70981f0b5b6fe6bb3bfeb
+size 278
