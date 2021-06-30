@@ -1,0 +1,11 @@
+[Sun 15 Dec 02:34:21 UTC 2024] Starting datalogger
+[Sun 15 Dec 02:34:22 UTC 2024] Led 0 connected
+[Sun 15 Dec 02:34:26 UTC 2024] Led 1 connected
+[Sun 15 Dec 02:34:29 UTC 2024] Starting loop
+[Mon  1 Jan 00:00:00 UTC 2018] Time to past
+[Wed 30 Jun 01:01:54 UTC 2021] Time corrected
+[Wed 30 Jun 01:01:54 UTC 2021] Uploading the data
+[Wed 30 Jun 01:02:01 UTC 2021] Done uploading!
+[Wed 30 Jun 01:02:32 UTC 2021] Offline: Starting INS
+[Wed 30 Jun 01:02:47 UTC 2021] Offline: Starting RECORDING
+[Wed 30 Jun 01:02:50 UTC 2021] Offline: Starting logger
