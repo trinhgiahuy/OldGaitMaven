@@ -1,0 +1,14 @@
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
