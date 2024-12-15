@@ -5797,3 +5797,66 @@ log file: /home/pi/.ros/log/0aa7f6d0-c7e0-11eb-84db-6782e927010f/vectornav-2*.lo
 [Mon  1 Jan 00:00:00 UTC 2018] Time to past
 [Wed 23 Jun 23:38:13 UTC 2021] Time corrected
 [Wed 23 Jun 23:38:13 UTC 2021] Done uploading!
+[Wed 23 Jun 23:50:51 UTC 2021] Starting datalogger
+[Wed 23 Jun 23:50:52 UTC 2021] Led 0 connected
+[Wed 23 Jun 23:50:56 UTC 2021] Led 1 connected
+[Wed 23 Jun 23:51:00 UTC 2021] Starting loop
+[Wed 23 Jun 23:51:00 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:51:15 UTC 2021] Offline: Starting RECORDING
+[Wed 23 Jun 23:51:18 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:51:18 UTC 2021] [31m[vectornav-2] process has died [pid 1161, exit code -11, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/dee1bc3e-d47d-11eb-bf2c-45e0212812bc/vectornav-2.log].
+log file: /home/pi/.ros/log/dee1bc3e-d47d-11eb-bf2c-45e0212812bc/vectornav-2*.log[0m
+[Wed 23 Jun 23:51:21 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:51:36 UTC 2021] Offline: Starting logger
+[Wed 23 Jun 23:51:43 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:51:43 UTC 2021] terminate called after throwing an instance of 'vn::unknown_error'
+  what():  std::exception
+[31m[vectornav-2] process has died [pid 1641, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/eb007f0a-d47d-11eb-9079-13286826536c/vectornav-2.log].
+log file: /home/pi/.ros/log/eb007f0a-d47d-11eb-9079-13286826536c/vectornav-2*.log[0m
+[Wed 23 Jun 23:51:45 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:54:18 UTC 2021] Starting datalogger
+[Wed 23 Jun 23:54:19 UTC 2021] Led 0 connected
+[Wed 23 Jun 23:54:23 UTC 2021] Led 1 connected
+[Wed 23 Jun 23:54:26 UTC 2021] Starting loop
+[Wed 23 Jun 23:54:27 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:54:38 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:54:38 UTC 2021] [31m[FATAL] [1624492475.793000421]: Could not conenct to vn200 on port:/dev/ttyAMA0 @ Baud:460800;Did you add your user to the 'dialout' group in /etc/group?[0m
+[31m[vectornav-1] process has died [pid 4279, exit code 1, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/f9c53b66-d47d-11eb-8eb5-7fea791d942d/vectornav-1.log].
+log file: /home/pi/.ros/log/f9c53b66-d47d-11eb-8eb5-7fea791d942d/vectornav-1*.log[0m
+[Wed 23 Jun 23:54:40 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:54:42 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:54:42 UTC 2021] [31m[FATAL] [1624492475.793000421]: Could not conenct to vn200 on port:/dev/ttyAMA0 @ Baud:460800;Did you add your user to the 'dialout' group in /etc/group?[0m
+[31m[vectornav-1] process has died [pid 4279, exit code 1, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/f9c53b66-d47d-11eb-8eb5-7fea791d942d/vectornav-1.log].
+log file: /home/pi/.ros/log/f9c53b66-d47d-11eb-8eb5-7fea791d942d/vectornav-1*.log[0m
+[Wed 23 Jun 23:54:44 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:54:55 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:54:55 UTC 2021] terminate called after throwing an instance of 'vn::timeout'
+  what():  timeout
+[31m[vectornav-1] process has died [pid 4969, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/61cfe076-d47e-11eb-a41f-95dc09f84e0f/vectornav-1.log].
+log file: /home/pi/.ros/log/61cfe076-d47e-11eb-a41f-95dc09f84e0f/vectornav-1*.log[0m
+[Wed 23 Jun 23:54:58 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:55:00 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:55:00 UTC 2021] terminate called after throwing an instance of 'vn::timeout'
+  what():  timeout
+[31m[vectornav-1] process has died [pid 4969, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/61cfe076-d47e-11eb-a41f-95dc09f84e0f/vectornav-1.log].
+log file: /home/pi/.ros/log/61cfe076-d47e-11eb-a41f-95dc09f84e0f/vectornav-1*.log[0m
+[Wed 23 Jun 23:55:02 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:55:13 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:55:13 UTC 2021] terminate called after throwing an instance of 'vn::timeout'
+  what():  timeout
+[31m[vectornav-1] process has died [pid 5574, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/6caf928e-d47e-11eb-b52a-ed9f6c490ad0/vectornav-1.log].
+log file: /home/pi/.ros/log/6caf928e-d47e-11eb-b52a-ed9f6c490ad0/vectornav-1*.log[0m
+[Wed 23 Jun 23:55:16 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:55:18 UTC 2021] Error on starting ins
+[Wed 23 Jun 23:55:18 UTC 2021] terminate called after throwing an instance of 'vn::timeout'
+  what():  timeout
+[31m[vectornav-1] process has died [pid 5574, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/6caf928e-d47e-11eb-b52a-ed9f6c490ad0/vectornav-1.log].
+log file: /home/pi/.ros/log/6caf928e-d47e-11eb-b52a-ed9f6c490ad0/vectornav-1*.log[0m
+[Wed 23 Jun 23:55:21 UTC 2021] Offline: Starting INS
+[Wed 23 Jun 23:55:36 UTC 2021] Offline: Starting RECORDING
+[Wed 23 Jun 23:55:39 UTC 2021] Offline: Starting logger
+[Mon  1 Jan 00:00:00 UTC 2018] Time to past
+[Mon  1 Jan 00:00:00 UTC 2018] Time to past
+[Mon  1 Jan 00:00:06 UTC 2018] Shutting down logger
+[Mon  1 Jan 00:00:08 UTC 2018] Shutting down logger
+[Mon  1 Jan 00:00:10 UTC 2018] Shutting down bag
