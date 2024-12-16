@@ -1,0 +1,2 @@
+[31m[master] process has died [pid 3372, exit code -15, cmd rosmaster --core -p 11311 -w 3 __log:=/home/pi/.ros/log/6c4798b0-e04e-11eb-aa13-bd48f2e69892/master.log].
+log file: /home/pi/.ros/log/6c4798b0-e04e-11eb-aa13-bd48f2e69892/master*.log[0m

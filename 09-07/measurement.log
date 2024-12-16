@@ -1,0 +1,47 @@
+[Mon 16 Dec 01:31:12 EET 2024] Starting datalogger
+[Mon 16 Dec 01:31:13 EET 2024] Led 0 connected
+[Mon 16 Dec 01:31:17 EET 2024] Led 1 connected
+[Mon 16 Dec 01:31:21 EET 2024] Starting loop
+[Mon 16 Dec 01:31:21 EET 2024] Offline: Starting INS
+[Mon 16 Dec 01:31:36 EET 2024] Error on starting ins
+[Mon 16 Dec 01:31:36 EET 2024] terminate called after throwing an instance of 'vn::timeout'
+  what():  timeout
+[31m[vectornav-2] process has died [pid 1186, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/b4e61732-bb3c-11ef-9870-352f34f76c78/vectornav-2.log].
+log file: /home/pi/.ros/log/b4e61732-bb3c-11ef-9870-352f34f76c78/vectornav-2*.log[0m
+[Mon 16 Dec 01:31:39 EET 2024] Offline: Starting INS
+[Mon 16 Dec 01:31:54 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 01:31:59 EET 2024] Offline: Starting logger
+[Mon 16 Dec 03:15:43 EET 2024] Starting datalogger
+[Mon 16 Dec 03:15:44 EET 2024] Led 0 connected
+[Mon 16 Dec 03:15:48 EET 2024] Led 1 connected
+[Mon 16 Dec 03:15:52 EET 2024] Starting loop
+[Mon 16 Dec 03:15:52 EET 2024] Offline: Starting INS
+[Mon 16 Dec 03:16:07 EET 2024] Error on starting ins
+[Mon 16 Dec 03:16:07 EET 2024] [31m[vectornav-2] process has died [pid 1312, exit code -11, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/4eb1a904-bb4b-11ef-8812-4bce3191630a/vectornav-2.log].
+log file: /home/pi/.ros/log/4eb1a904-bb4b-11ef-8812-4bce3191630a/vectornav-2*.log[0m
+[Mon 16 Dec 03:16:10 EET 2024] Offline: Starting INS
+[Mon 16 Dec 03:16:25 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 03:16:30 EET 2024] Offline: Starting logger
+[Mon 16 Dec 03:19:10 EET 2024] Starting datalogger
+[Mon 16 Dec 03:19:11 EET 2024] Led 0 connected
+[Mon 16 Dec 03:19:15 EET 2024] Led 1 connected
+[Mon 16 Dec 03:19:18 EET 2024] Starting loop
+[Mon 16 Dec 03:19:19 EET 2024] Offline: Starting INS
+[Mon 16 Dec 03:19:34 EET 2024] Error on starting ins
+[Mon 16 Dec 03:19:34 EET 2024] *** Error in `/home/pi/catkin_ws/devel/lib/vectornav/vn200_node': double free or corruption (fasttop): 0x014d8fd8 ***
+[31m[vectornav-2] process has died [pid 1185, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/ca04bec0-bb4b-11ef-8930-4b004c9a8459/vectornav-2.log].
+log file: /home/pi/.ros/log/ca04bec0-bb4b-11ef-8930-4b004c9a8459/vectornav-2*.log[0m
+[Mon 16 Dec 03:19:37 EET 2024] Offline: Starting INS
+[Mon 16 Dec 03:19:52 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 03:19:57 EET 2024] Offline: Starting logger
+[Mon  1 Jan 00:00:00 EET 2018] Time to past
+[Fri  9 Jul 03:40:59 EEST 2021] Time corrected
+[Fri  9 Jul 03:40:59 EEST 2021] Shutting down logger
+[Fri  9 Jul 03:41:02 EEST 2021] Shutting down bag
+[Fri  9 Jul 03:41:08 EEST 2021] Shutting down the INS
+[Fri  9 Jul 03:41:12 EEST 2021] Waiting for everything to shut down
+[Fri  9 Jul 03:41:12 EEST 2021] Uploading the data
+[Fri  9 Jul 03:41:15 EEST 2021] Done uploading!
+[Fri  9 Jul 03:41:33 EEST 2021] Offline: Starting INS
+[Fri  9 Jul 03:41:48 EEST 2021] Offline: Starting RECORDING
+[Fri  9 Jul 03:41:53 EEST 2021] Offline: Starting logger

@@ -1,0 +1,932 @@
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1277 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1705 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1705) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1705) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1705) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1705) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1705) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (1705) - No such process
+BLINK
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  7718 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (7718) - No such process
+BLINK
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  7773 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (7773) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (7773) - No such process
+BLINK
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 97:  7874 Terminated              led_blink
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 97:  7993 Terminated              led_blink
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 97:  8013 Terminated              led_blink
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 97:  8034 Terminated              led_blink
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  8054 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1277) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (8054) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (8054) - No such process
+ON
+                                                                                                                                                                                                                                                                                                                                                                                                                  NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1403 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1831 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1831) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1831) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1831) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1403) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1831) - No such process
+ON
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1276 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1276) - No such process
+OFF
+FASTER
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1704 Terminated              led_blink
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  2684 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (1276) - No such process
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  2770 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2770) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2684) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2770) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (2684) - No such process
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2770) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2770) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2770) - No such process
+OFF
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  3603 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3603) - No such process
+ON
