@@ -1,0 +1,81 @@
+[Mon 16 Dec 16:02:34 EET 2024] Starting datalogger
+[Mon 16 Dec 16:02:35 EET 2024] Led 0 connected
+[Mon 16 Dec 16:02:39 EET 2024] Led 1 connected
+[Mon 16 Dec 16:02:42 EET 2024] Starting loop
+[Mon 16 Dec 16:02:43 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:02:58 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 16:03:01 EET 2024] Error on starting ins
+[Mon 16 Dec 16:03:01 EET 2024] [31m[vectornav-2] process has died [pid 1183, exit code -11, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/6d834566-bbb6-11ef-8544-2f7a914d0247/vectornav-2.log].
+log file: /home/pi/.ros/log/6d834566-bbb6-11ef-8544-2f7a914d0247/vectornav-2*.log[0m
+[Mon 16 Dec 16:03:04 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:03:40 EET 2024] Starting datalogger
+[Mon 16 Dec 16:03:41 EET 2024] Led 0 connected
+[Mon 16 Dec 16:03:45 EET 2024] Led 1 connected
+[Mon 16 Dec 16:03:48 EET 2024] Starting loop
+[Mon 16 Dec 16:28:58 EET 2024] Starting datalogger
+[Mon 16 Dec 16:28:59 EET 2024] Led 0 connected
+[Mon 16 Dec 16:29:03 EET 2024] Led 1 connected
+[Mon 16 Dec 16:29:06 EET 2024] Starting loop
+[Mon 16 Dec 16:29:10 EET 2024] Offline: Starting logger
+[Mon 16 Dec 16:29:13 EET 2024] /vectornav/imugps not found
+[Mon 16 Dec 16:29:13 EET 2024] /rosout not found
+[Mon 16 Dec 16:30:46 EET 2024] Starting datalogger
+[Mon 16 Dec 16:30:47 EET 2024] Led 0 connected
+[Mon 16 Dec 16:30:51 EET 2024] Led 1 connected
+[Mon 16 Dec 16:30:55 EET 2024] Starting loop
+[Mon 16 Dec 16:30:55 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:31:10 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 16:31:14 EET 2024] Offline: Starting logger
+[Mon 16 Dec 16:31:17 EET 2024] Error on starting ins
+[Mon 16 Dec 16:31:17 EET 2024] *** Error in `/home/pi/catkin_ws/devel/lib/vectornav/vn200_node': double free or corruption (fasttop): 0x711004a0 ***
+[31m[vectornav-2] process has died [pid 1182, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/5e38a232-bbba-11ef-a78a-b11627dcfff0/vectornav-2.log].
+log file: /home/pi/.ros/log/5e38a232-bbba-11ef-a78a-b11627dcfff0/vectornav-2*.log[0m
+[Mon 16 Dec 16:31:20 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:33:46 EET 2024] Starting datalogger
+[Mon 16 Dec 16:33:47 EET 2024] Led 0 connected
+[Mon 16 Dec 16:33:52 EET 2024] Led 1 connected
+[Mon 16 Dec 16:33:55 EET 2024] Starting loop
+[Mon 16 Dec 16:34:57 EET 2024] Starting datalogger
+[Mon 16 Dec 16:34:58 EET 2024] Led 0 connected
+[Mon 16 Dec 16:35:02 EET 2024] Led 1 connected
+[Mon 16 Dec 16:35:05 EET 2024] Starting loop
+[Mon 16 Dec 16:36:08 EET 2024] Starting datalogger
+[Mon 16 Dec 16:36:09 EET 2024] Led 0 connected
+[Mon 16 Dec 16:36:14 EET 2024] Led 1 connected
+[Mon 16 Dec 16:36:17 EET 2024] Starting loop
+[Mon 16 Dec 16:36:17 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:36:32 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 16:36:36 EET 2024] Error on starting ins
+[Mon 16 Dec 16:36:36 EET 2024] *** Error in `/home/pi/catkin_ws/devel/lib/vectornav/vn200_node': double free or corruption (fasttop): 0x00f46f90 ***
+[31m[vectornav-2] process has died [pid 1182, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/1e486242-bbbb-11ef-9022-2b9d8b1f8abc/vectornav-2.log].
+log file: /home/pi/.ros/log/1e486242-bbbb-11ef-9022-2b9d8b1f8abc/vectornav-2*.log[0m
+[Mon 16 Dec 16:36:38 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:36:53 EET 2024] Offline: Starting logger
+[Mon  1 Jan 00:00:00 EET 2018] Time to past
+[Thu 15 Jul 15:40:06 EEST 2021] Time corrected
+[Thu 15 Jul 15:40:06 EEST 2021] Shutting down logger
+[Thu 15 Jul 15:40:09 EEST 2021] Shutting down bag
+[Thu 15 Jul 15:40:15 EEST 2021] Shutting down the INS
+[Thu 15 Jul 15:40:19 EEST 2021] Waiting for everything to shut down
+[Thu 15 Jul 15:40:19 EEST 2021] Uploading the data
+[Thu 15 Jul 15:40:21 EEST 2021] Done uploading!
+[Thu 15 Jul 15:40:38 EEST 2021] Offline: Starting INS
+[Thu 15 Jul 15:40:53 EEST 2021] Offline: Starting RECORDING
+[Thu 15 Jul 15:40:54 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:40:54 EEST 2021] /rosout not found
+[Thu 15 Jul 15:40:58 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:40:58 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:01 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:01 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:05 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:05 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:08 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:08 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:11 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:11 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:15 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:15 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:19 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:19 EEST 2021] /rosout not found
+[Thu 15 Jul 15:41:22 EEST 2021] /vectornav/imugps not found
+[Thu 15 Jul 15:41:22 EEST 2021] /rosout not found

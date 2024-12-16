@@ -1,0 +1,374 @@
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1348) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1348) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1348) - No such process
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1927 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1348) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (1927) - No such process
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1348) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (1348) - No such process
+ON
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  2689 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (1348) - No such process
+BLINK
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  5088 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (5088) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (5088) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (5088) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (5088) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (5088) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (5088) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2689) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (2689) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2689) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (5088) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (2689) - No such process
+ON
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1423 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1423) - No such process
+OFF
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  3600 Terminated              led_blink
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3600) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3600) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3600) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3600) - No such process
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 74: kill: (3600) - No such process
+ON
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1401 Terminated              led_blink
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1577 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1577) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1577) - No such process
+OFF
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 0
+GPIO val: 24
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe0’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+NUM val: 1
+GPIO val: 25
+ON val: 0
+OFF val: 1
+rm: cannot remove ‘/tmp/ledpipe1’: No such file or directory
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ON
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+FASTER
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1422 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (1422) - No such process
+OFF
+FASTER
+/home/pi/openkin/led-linuxgpio.sh: line 97:  1717 Terminated              led_blink
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 97:  2950 Terminated              led_blink_f
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 82: kill: (1422) - No such process
+BLINK
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+ON
+/home/pi/openkin/led-linuxgpio.sh: line 97:  3037 Terminated              led_blink
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (2950) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
+/home/pi/openkin/led-linuxgpio.sh: line 78: kill: (3037) - No such process
+OFF
