@@ -13,6 +13,7 @@ GPSTEMPFILE="$HOME/gpstemp.log"
 INSTEMPFILE="$HOME/instemp.log"
 LOGFILE="$HOME/measurement.log"
 DATADIR="$HOME/data"
+#DATADIR="$HOME/sync_data"
 ROSTOPICFILE="$HOME/rostmp.log"
 POZYXLOG="$HOME/data/pozyx.log"
 MTWLOG="$HOME/data/mtw.log"
@@ -22,7 +23,8 @@ POZYXTAGFILE="$HOME/data/tags.txt"
 INSRECORDING="/tmp/insrecording"
 # empty logfile
 #> $LOGFILE
-
+# ADD LOG FILE FOR SYNC_DATA
+LOGFILE="$HOME/logfile.log"
 # GNSS connected = 0, not = 1
 GPS=1
 
@@ -122,6 +124,7 @@ INSERR=1
 
 TIMECORRECTED=1
 
+#mean offline
 online=1
 
 logger "Starting datalogger"
@@ -291,13 +294,13 @@ function check3G {
 
 	#Change the number according to dongle
 	
-	#	if lsusb | grep -q 12d1:1003; then
-	if lsusb | grep -q 12d1:14db, then
+	if lsusb | grep -q 12d1:1003; then
+	#if lsusb | grep -q 12d1:14db; then
 	   logger "Connecting 3G"
 	   # Connect to 3G with Huawei E160, saunalahti
 	   sudo sakis3g connect OTHER="USBMODEM" USBMODEM="12d1:1003" APN="internet.saunalahti"
 	fi
-	fi
+    fi	  
 }
 
 function findXsens {
@@ -370,10 +373,10 @@ while true; do
 	if [ "$online" -eq 0 ]; then
 
 		if [ "$TIMECORRECTED" -ne 0 ]; then
-			sudo date +%Y%m%d -s "20180101"
+			sudo date +%Y%m%d -s "20210101"
 			logger "Time to past"
 		fi
-		if [[ $TIMECORRECTED -ne 0 ]] && sudo ntpdate time1.mikes.fi time2.mikes.fi; then
+		if [[ $TIMECORRECTED -ne 0 ]] && sudo ntpdate -b time1.mikes.fi time2.mikes.fi; then
 			TIMECORRECTED=0
 			logger "Time corrected"
 			led_blink_f 0
@@ -409,8 +412,11 @@ while true; do
 				#screen -r grive -X stuff $'\ngrive\n'
 				# upload in subshell
 				led_blink 1
-				(cd $DATADIR || exit; grive) >> $LOGFILE &
+				#(cd $DATADIR || exit; grive) >> $LOGFILE &
+				DATE="$(date)"
+				(cd $DATADIR || exit; bash autoupdate.sh "${DATE}") >> $LOGFILE &
 				#(cd $DATADIR || exit; unison . ssh://openkinserver/data -ignore 'Path */*' -batch -silent ) >> $LOGFILE &
+				logger "Called auoupdatebash"
 				GRIVEPID=$!
 			elif ps -p $GRIVEPID > /dev/null 2>&1; then
 				led_blink 1
