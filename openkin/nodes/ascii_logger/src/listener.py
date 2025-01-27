@@ -20,7 +20,7 @@ import threading
 
 import time
 filename = time.strftime("%Y-%m-%d-%H-%M-%S")
-filename = "/home/pi/sync_data/" + filename + ".txt"
+filename = "/home/pi/data/" + filename + ".txt"
 
 file = open(filename, "a")
 
