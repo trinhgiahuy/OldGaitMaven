@@ -1,0 +1,23 @@
+[Mon 16 Dec 16:38:27 EET 2024] Starting datalogger
+[Mon 16 Dec 16:38:28 EET 2024] Led 0 connected
+[Mon 16 Dec 16:38:33 EET 2024] Led 1 connected
+[Mon 16 Dec 16:38:36 EET 2024] Starting loop
+[Mon 16 Dec 16:38:36 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:38:51 EET 2024] Error on starting ins
+[Mon 16 Dec 16:38:51 EET 2024] [31m[FATAL] [1734359928.851950551]: Could not conenct to vn200 on port:/dev/ttyAMA0 @ Baud:460800;Did you add your user to the 'dialout' group in /etc/group?[0m
+[31m[vectornav-2] process has died [pid 1226, exit code -11, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/71f98006-bbbb-11ef-a717-dd8e7c569438/vectornav-2.log].
+log file: /home/pi/.ros/log/71f98006-bbbb-11ef-a717-dd8e7c569438/vectornav-2*.log[0m
+[Mon 16 Dec 16:38:54 EET 2024] Offline: Starting INS
+[Mon 16 Dec 16:39:09 EET 2024] Offline: Starting RECORDING
+[Mon 16 Dec 16:39:12 EET 2024] Offline: Starting logger
+[Mon  1 Jan 00:00:00 EET 2018] Time to past
+[Thu 15 Jul 18:53:41 EEST 2021] Time corrected
+[Thu 15 Jul 18:53:41 EEST 2021] Shutting down logger
+[Mon 27 Jan 11:47:19 EET 2025] Shutting down bag
+[Mon 27 Jan 11:47:24 EET 2025] Shutting down the INS
+[Mon 27 Jan 11:47:28 EET 2025] Waiting for everything to shut down
+[Mon 27 Jan 11:47:29 EET 2025] Uploading the data
+[Mon 27 Jan 11:47:31 EET 2025] Done uploading!
+[Mon 27 Jan 11:47:43 EET 2025] Offline: Starting INS
+[Mon 27 Jan 11:47:58 EET 2025] Offline: Starting RECORDING
+[Mon 27 Jan 11:48:01 EET 2025] Offline: Starting logger
