@@ -1,0 +1,41 @@
+[Mon 27 Jan 16:23:09 EET 2025] Starting datalogger
+[Mon 27 Jan 16:23:10 EET 2025] Led 0 connected
+[Mon 27 Jan 16:23:14 EET 2025] Led 1 connected
+[Mon 27 Jan 16:23:17 EET 2025] Starting loop
+[Mon 27 Jan 16:23:17 EET 2025] Offline: Starting INS
+[Mon 27 Jan 16:23:33 EET 2025] Offline: Starting RECORDING
+[Mon 27 Jan 16:23:36 EET 2025] Offline: Starting logger
+[Fri  1 Jan 00:00:00 EET 2021] Time to past
+[Sun 18 Jul 15:34:44 EEST 2021] Time corrected
+[Sun 18 Jul 15:34:44 EEST 2021] Shutting down logger
+[Sun 18 Jul 15:34:47 EEST 2021] Shutting down bag
+[Sun 18 Jul 15:34:53 EEST 2021] Shutting down the INS
+[Sun 18 Jul 15:34:57 EEST 2021] Waiting for everything to shut down
+[Sun 18 Jul 15:34:57 EEST 2021] Uploading the data
+[Sun 18 Jul 15:34:57 EEST 2021] Called auoupdatebash
+Changed found. Pushing changes...
+[main b94ca84] Sun 18 Jul 15:34:57 EEST 2021: Update files
+ 2 files changed, 2457 insertions(+)
+ rewrite 2025-01-27-16-23-35.bag.active (72%)
+[Sun 18 Jul 15:35:04 EEST 2021] Done uploading!
+[Sun 18 Jul 15:35:26 EEST 2021] Offline: Starting INS
+[Sun 18 Jul 15:35:41 EEST 2021] Error on starting ins
+[Sun 18 Jul 15:35:41 EEST 2021] terminate called after throwing an instance of 'vn::unknown_error'
+  what():  std::exception
+[31m[vectornav-2] process has died [pid 2818, exit code -6, cmd /home/pi/catkin_ws/devel/lib/vectornav/vn200_node __name:=vectornav __log:=/home/pi/.ros/log/a2d40c38-e7c4-11eb-83d7-3fbee8684fc9/vectornav-2.log].
+log file: /home/pi/.ros/log/a2d40c38-e7c4-11eb-83d7-3fbee8684fc9/vectornav-2*.log[0m
+[Sun 18 Jul 15:35:43 EEST 2021] Offline: Starting INS
+[Sun 18 Jul 15:35:58 EEST 2021] Offline: Starting RECORDING
+[Sun 18 Jul 15:36:03 EEST 2021] Offline: Starting logger
+[Sun 18 Jul 15:38:25 EEST 2021] Shutting down logger
+[Sun 18 Jul 15:38:28 EEST 2021] Shutting down bag
+[Sun 18 Jul 15:38:34 EEST 2021] Shutting down the INS
+[Sun 18 Jul 15:38:38 EEST 2021] Waiting for everything to shut down
+[Sun 18 Jul 15:38:38 EEST 2021] Uploading the data
+[Sun 18 Jul 15:38:38 EEST 2021] Called auoupdatebash
+Changed found. Pushing changes...
+[main 958239f] Sun 18 Jul 15:38:38 EEST 2021: Update files
+ 2 files changed, 55524 insertions(+)
+ create mode 100644 2021-07-18-15-36-01.bag
+ create mode 100644 2021-07-18-15-36-06.txt
+[Sun 18 Jul 15:39:27 EEST 2021] Done uploading!
